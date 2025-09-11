@@ -1,0 +1,62 @@
+# Sequencing data
+*.fastq
+*.fq
+*.bam
+*.sam
+*.vcf
+*.fasta
+*.fa
+*.faa
+*.gff
+*.gtf
+*.fna
+*.gbff
+
+#Panproteome bestanden
+*.out
+*.hmm
+*.prfl
+neostore*
+*.db
+*.psq
+*.nsq
+*.pdb
+
+# Gecomprimeerde bestanden
+*.gz
+*.zip
+*.bz2
+*.xz
+
+# Assemblies en analyses
+*.contigs
+*.scaffolds
+*.aln
+*.tree
+*.out
+
+# Log- en outputbestanden
+*.log
+*.err
+*.tmp
+*.stats
+
+# R en Python bestanden
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Extra which took too long
+*.snakemake
+cauliflower4/QC/statistics/agat_sp_statistics/*
+cauliflower4/pangenome/pangenome_4_DB/databases/*
+
+
+# Folder with old pangenomes not used (yet)
+old/*
