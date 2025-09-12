@@ -1,0 +1,106 @@
+Total annotations included in the pangenome: 15
+
+#Genome 1
+1 annotation: 1_1
+
+Annotation id: 1_1
+Stored in node: 676
+Creation date 2025/09/02 15:03:59
+
+#Genome 2
+1 annotation: 2_1
+
+Annotation id: 2_1
+Stored in node: 76696775
+Creation date 2025/09/02 15:05:04
+
+#Genome 3
+1 annotation: 3_1
+
+Annotation id: 3_1
+Stored in node: 78098663
+Creation date 2025/09/02 15:06:27
+
+#Genome 4
+1 annotation: 4_1
+
+Annotation id: 4_1
+Stored in node: 78720166
+Creation date 2025/09/02 15:07:18
+
+#Genome 5
+1 annotation: 5_1
+
+Annotation id: 5_1
+Stored in node: 79340261
+Creation date 2025/09/02 15:08:07
+
+#Genome 6
+1 annotation: 6_1
+
+Annotation id: 6_1
+Stored in node: 79956598
+Creation date 2025/09/02 15:08:56
+
+#Genome 7
+1 annotation: 7_1
+
+Annotation id: 7_1
+Stored in node: 80546129
+Creation date 2025/09/02 15:09:40
+
+#Genome 8
+1 annotation: 8_1
+
+Annotation id: 8_1
+Stored in node: 81135650
+Creation date 2025/09/02 15:10:26
+
+#Genome 9
+1 annotation: 9_1
+
+Annotation id: 9_1
+Stored in node: 81759947
+Creation date 2025/09/02 15:11:15
+
+#Genome 10
+1 annotation: 10_1
+
+Annotation id: 10_1
+Stored in node: 82383930
+Creation date 2025/09/02 15:12:03
+
+#Genome 11
+1 annotation: 11_1
+
+Annotation id: 11_1
+Stored in node: 83002457
+Creation date 2025/09/02 15:12:51
+
+#Genome 12
+1 annotation: 12_1
+
+Annotation id: 12_1
+Stored in node: 83624860
+Creation date 2025/09/02 15:13:38
+
+#Genome 13
+1 annotation: 13_1
+
+Annotation id: 13_1
+Stored in node: 84270419
+Creation date 2025/09/02 15:14:31
+
+#Genome 14
+1 annotation: 14_1
+
+Annotation id: 14_1
+Stored in node: 84877640
+Creation date 2025/09/02 15:15:20
+
+#Genome 15
+1 annotation: 15_1
+
+Annotation id: 15_1
+Stored in node: 85599462
+Creation date 2025/09/02 15:16:17

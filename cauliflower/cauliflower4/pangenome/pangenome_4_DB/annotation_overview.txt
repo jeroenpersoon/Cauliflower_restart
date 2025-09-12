@@ -1,0 +1,29 @@
+Total annotations included in the pangenome: 4
+
+#Genome 1
+1 annotation: 1_1
+
+Annotation id: 1_1
+Stored in node: 427
+Creation date 2025/07/24 15:00:34
+
+#Genome 2
+1 annotation: 2_1
+
+Annotation id: 2_1
+Stored in node: 32323011
+Creation date 2025/07/24 15:02:18
+
+#Genome 3
+1 annotation: 3_1
+
+Annotation id: 3_1
+Stored in node: 33649668
+Creation date 2025/07/24 15:03:35
+
+#Genome 4
+1 annotation: 4_1
+
+Annotation id: 4_1
+Stored in node: 34236133
+Creation date 2025/07/24 15:04:41

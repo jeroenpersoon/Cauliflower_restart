@@ -1,0 +1,28 @@
+Number of sequences        : 23
+Number of genomes          : 13
+Alignment length           : 62
+Total variable positions   : 25
+Total informative positions: 20
+Conserved (*) positions    : 37
+
+Informative positions: 
+4: K 8, R 15
+6: A 3, I 1, V 19
+7: E 20, Q 3
+9: K 16, Q 7
+10: L 4, R 19
+22: C 16, S 7
+26: K 1, N 18, T 4
+29: I 18, M 5
+30: D 1, E 19, K 3
+37: I 5, V 18
+40: E 21, G 2
+43: I 2, V 21
+45: L 5, V 18
+46: F 1, I 1, L 19, V 2
+47: A 1, I 6, V 16
+50: A 16, G 2, S 5
+51: I 1, S 7, T 15
+56: D 2, K 1, N 15, S 5
+58: A 2, S 21
+62: D 1, K 7, N 9, R 3, S 3

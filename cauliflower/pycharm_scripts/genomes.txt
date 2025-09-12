@@ -1,0 +1,3 @@
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/genomes/GWHBJSH00000000.genomenew.fna
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/genomes/GWHBKKZ00000000.genomenew.fna
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/genomes/GWHDTYM00000000.genomenew.fna

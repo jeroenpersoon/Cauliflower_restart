@@ -1,0 +1,4 @@
+# 2 groups with variable sites:
+35407829,35366972
+
+# 0 groups with parsimony informative positions:

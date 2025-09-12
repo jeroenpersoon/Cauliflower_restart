@@ -1,0 +1,28 @@
+#Sequence 1, >NP_001078563.1 FLC [organism=Arabidopsis thaliana] [GeneID=830878]
+Gene names: -(24x)
+Present in genomes 1(5x), 2(5x), 3(5x), 4(9x)
+Number of different copies found: 5, 9
+Missing in genomes []
+Genes are part of 13 homology groups: 35366271, 35366272, 35366274, 35366275, 35366276, 35366972, 35407828, 35407829, 35407830, 35407831, 35409978, 35412084, 35431849]
+
+#Sequence 2, >NP_001154703.1 FLC [organism=Arabidopsis thaliana] [GeneID=830878]
+Gene names: -(24x)
+Present in genomes 1(5x), 2(5x), 3(5x), 4(9x)
+Number of different copies found: 5, 9
+Missing in genomes []
+Genes are part of 13 homology groups: 35366271, 35366272, 35366274, 35366275, 35366276, 35366972, 35407828, 35407829, 35407830, 35407831, 35409978, 35412084, 35431849]
+
+#Sequence 3, >NP_001190272.1 FLC [organism=Arabidopsis thaliana] [GeneID=830878]
+Gene names: -(19x)
+Present in genomes 1(5x), 2(3x), 3(4x), 4(7x)
+Number of different copies found: 3, 4, 5, 7
+Missing in genomes []
+Genes are part of 9 homology groups: 35366271, 35366972, 35407828, 35407829, 35407830, 35407831, 35409978, 35412084, 35431849]
+
+#Sequence 4, >NP_196576.1 FLC [organism=Arabidopsis thaliana] [GeneID=830878]
+Gene names: -(20x)
+Present in genomes 1(6x), 2(3x), 3(4x), 4(7x)
+Number of different copies found: 3, 4, 6, 7
+Missing in genomes []
+Genes are part of 10 homology groups: 35358525, 35366271, 35366972, 35407828, 35407829, 35407830, 35407831, 35409978, 35412084, 35431849]
+

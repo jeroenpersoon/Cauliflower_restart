@@ -1,0 +1,4 @@
+1 /lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/annotations_filtered/27622715.filtered.gff
+2 /lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/annotations_filtered/GWHBKKZ00000000.filtered.gff
+3 /lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/annotations_filtered/GWHDTYM00000000.filtered.gff
+4 /lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/annotations_filtered/GWHDUBS00000000.filtered.gff

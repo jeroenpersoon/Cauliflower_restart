@@ -1,0 +1,14 @@
+Genome/Subgenome,Sequence type,% of groups with 1 distinct allele,% of groups with 2 distinct alleles,% of groups with 3 distinct alleles,% of groups with 4 distinct alleles,% of groups with 5 distinct alleles,% of groups with 6 distinct alleles,% of groups with 7 distinct alleles,% of groups with 8 distinct alleles,% of groups with 9 distinct alleles,% of groups with 10 distinct alleles,% of groups with 11 or more distinct alleles,Groups with 1 distinct allele,Groups with 2 distinct alleles,Groups with 3 distinct alleles,Groups with 4 distinct alleles,Groups with 5 distinct alleles,Groups with 6 distinct alleles,Groups with 7 distinct alleles,Groups with 8 distinct alleles,Groups with 9 distinct alleles,Groups with 10 distinct alleles,Groups with 11 or more distinct alleles,total groups,median (number of alleles),average (number of alleles), standard deviation
+1,nucleotide,94.70,3.88,0.82,0.27,0.14,0.06,0.03,0.02,0.02,0.01,0.06,52143,2134,449,150,77,32,19,11,9,7,31.0,55062.0,1.00,1.09,0.66
+1,protein,94.79,3.87,0.79,0.25,0.13,0.05,0.03,0.02,0.01,0.01,0.05,52195,2132,433,140,69,28,16,9,6,6,28.0,55062.0,1.00,1.08,0.64
+2,nucleotide,95.53,3.24,0.74,0.21,0.10,0.06,0.02,0.02,0.01,0.01,0.05,47400,1609,367,103,49,31,12,12,7,6,24.0,49620.0,1.00,1.08,1.37
+2,protein,95.63,3.24,0.71,0.18,0.08,0.06,0.03,0.02,0.01,0.01,0.04,47452,1610,350,90,38,30,14,8,4,3,21.0,49620.0,1.00,1.08,1.35
+3,nucleotide,95.74,3.13,0.73,0.17,0.11,0.08,0.02,0.01,0.00,0.01,0.01,45541,1487,347,79,51,37,9,4,2,4,7.0,47568.0,1.00,1.06,0.39
+3,protein,95.84,3.13,0.69,0.16,0.08,0.07,0.01,0.01,0.01,0.01,0.01,45590,1488,329,77,36,31,5,3,3,3,3.0,47568.0,1.00,1.06,0.36
+4,nucleotide,96.10,2.84,0.70,0.16,0.09,0.05,0.03,0.01,0.00,,0.01,46599,1375,340,80,44,26,14,4,2,,7.0,48491.0,1.00,1.06,0.37
+4,protein,96.20,2.83,0.68,0.15,0.06,0.05,0.02,0.01,,,0.01,46646,1371,329,72,30,24,12,4,,,3.0,48491.0,1.00,1.05,0.34
+
+
+#Included only the longest transcripts
+Genome/Subgenome,Sequence type,% of groups with 1 distinct allele,% of groups with 2 distinct alleles,% of groups with 3 distinct alleles,% of groups with 4 distinct alleles,% of groups with 5 distinct alleles,% of groups with 6 distinct alleles,% of groups with 7 distinct alleles,% of groups with 8 distinct alleles,% of groups with 9 distinct alleles,% of groups with 10 distinct alleles,% of groups with 11 or more distinct alleles,Groups with 1 distinct allele,Groups with 2 distinct alleles,Groups with 3 distinct alleles,Groups with 4 distinct alleles,Groups with 5 distinct alleles,Groups with 6 distinct alleles,Groups with 7 distinct alleles,Groups with 8 distinct alleles,Groups with 9 distinct alleles,Groups with 10 distinct alleles,Groups with 11 or more distinct alleles,total groups,median (number of alleles),average (number of alleles), standard deviation
+

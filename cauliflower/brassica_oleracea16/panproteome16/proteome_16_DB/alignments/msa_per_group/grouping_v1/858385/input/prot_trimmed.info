@@ -1,0 +1,29 @@
+Protein alignment length: 428
+Longest start gap: 7
+Longest end gap: 359
+
+#Total number of trimmed positions at the start and end of each sequence.
+mRNA ID, trimmed positions start, trimmed positions end
+16_1_BolO_2g65840.1,0,98
+11_1_BroT12.C03g54800.1,0,0
+6_1_BroT07.C03g54050.1,0,88
+5_1_BroT02.C03g53540.1,0,67
+8_1_BroT06.C02g52820.1,0,80
+16_1_BolO_3g58390.1,0,298
+13_1_BroT08.C03g53320.1,0,67
+8_1_BroT06.C03g52000.1,0,88
+9_1_BroT24.C03g51980.1,0,67
+2_1_AT5G65080.2,7,135
+14_1_BroT17.C02g58870.1,0,107
+15_1_BroT21.C03g52340.1,0,121
+2_1_AT1G77080.8,0,161
+16_1_BolO_2g65950.1,0,137
+2_1_AT5G65060.1,0,134
+2_1_AT5G65070.3,0,170
+12_1_BroT10.C03g54200.1,0,0
+4_1_bro3G02264.1,0,116
+2_1_AT5G65050.3,0,134
+12_1_BroT10.C02g54960.1,0,137
+4_1_bro2G06238.1,0,116
+7_1_BroT13.C03g53240.1,0,67
+14_1_BroT17.C02g58920.1,0,107

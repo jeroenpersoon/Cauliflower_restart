@@ -1,0 +1,87 @@
+CLUSTAL format alignment by MAFFT L-INS-i (v7.526)
+
+
+3_1_BroT25.C09g ATGGGGAGGAAGAAACTTGAAATCAAGCCAATTGAGAACAAAAGTAGCCGACAAGTTACC
+4_1_BroT21.C09g ATGTCGATGGACAA------------------------------------------TATC
+1_1_BolK_9g6377 ATGGGGAGGAAGAAACTTGAAATCAAGCCAATTGAGAACAAAAGTAGCCGACAAGTTACC
+                ***  ** *.* **                                          **.*
+
+3_1_BroT25.C09g TTCTCCAAACGACGCAACGGTCTCATCGAGAAAGCTCGTCAGCTTTCCGTTCTCTGTGAC
+4_1_BroT21.C09g CT----------------------------------------------------------
+1_1_BolK_9g6377 TTCTCCAAACGACGCAACGGTCTCATCGAGAAAGCTCGTCAGCTTTCCGTTCTCTGTGAC
+                .*                                                          
+
+3_1_BroT25.C09g GCATCCGTCGCTCTTCTTGTCGTCTCCGCCTCCAGAAAACTCTACAGCTTCTCCTCCGGT
+4_1_BroT21.C09g ------------------------------------------------------------
+1_1_BolK_9g6377 GCATCCGTCGCTCTTCTTGTCGTCTCCGCCTCCAGAAAACTCTACAGCTTCTCCTCCGGT
+                                                                            
+
+3_1_BroT25.C09g GATAACCCGGTCAAGATCCTTGATCGATATGGAAAGCAACATGGTGATGATCTTAAAGCC
+4_1_BroT21.C09g --TGACCCGGTCAAGATCCTTGATCGATATGGAAAGCAACATGGTGATGATCTTAAAGCC
+1_1_BolK_9g6377 GATAACCCGGTCAAGATCCTTGATCGATATGGAAAGCAACATGGTGATGATCTTAAAGCC
+                  *.********************************************************
+
+3_1_BroT25.C09g TTGGATCGTCAGTCAAAAGCTTTGGACTGTGGTTCACACCATGAGCTACTGGAACTTGTG
+4_1_BroT21.C09g TTGGATCGTCAGTCAAAAGCTTTGGACTGTGGTTCACACCATGAGCTACTGGAACTTGTG
+1_1_BolK_9g6377 TTGGATCGTCAGTCAAAAGCTTTGGACTGTGGTTCACACCATGAGCTACTGGAACTTGTG
+                ************************************************************
+
+3_1_BroT25.C09g GAAAGCAAGCTTGAGGAATCAAATGTCGATAATGTAAGTGTGGGTTCCCTGGTTCAGCTG
+4_1_BroT21.C09g GAAAGCAAGCTTGAGGAATCAAATGTCGATAATGTAAGTGTGGGTTCCCTGGTTCAGCTG
+1_1_BolK_9g6377 GAAAGCAAGCTTGAGGAATCAAATGTCGATAATGTAAGTGTGGGTTCCCTGGTTCAGCTG
+                ************************************************************
+
+3_1_BroT25.C09g GAGGAACACCTTGAGAACGCCCTCTCCGTAACAAGAGCTAGGAAGACAGAACTAATGTTG
+4_1_BroT21.C09g GAGGAACACCTTGAGAACGCCCTCTCCGTAACAAGAGCTAGGAAGACAGAACTAATGTTG
+1_1_BolK_9g6377 GAGGAACACCTTGAGAACGCCCTCTCCGTAACAAGAGCTAGGAAGACAGAACTAATGTTG
+                ************************************************************
+
+3_1_BroT25.C09g AAGCTTGTCGAGAACCTTAAAGAAAAGGAGAAGTTGCTGGAAGAGGAGAACCATGTTTTG
+4_1_BroT21.C09g AAGCTTGTCGAGAACCTTAAAGAAAAGGAGAAGTTGCTGGAAGAGGAGAACCATGTTTTG
+1_1_BolK_9g6377 AAGCTTGTCGAGAACCTTAAAGAAAAGGAGAAGTTGCTGGAAGAGGAGAACCATGTTTTG
+                ************************************************************
+
+3_1_BroT25.C09g GCTAGCCAGATGGAGAAGAGTAATCTTGTGCGAGCCGAAGCTGATAATATGGAGGTGTCA
+4_1_BroT21.C09g GCTAGCCAGATGGAGAAGAGTAATCTTGTGCGAGCCGAAGCTGATAATATGGAGGTGTCA
+1_1_BolK_9g6377 GCTAGCCAGATGGAGAAGAGTAATCTTGTGCGAGCCGAAGCTGATAATATGGAGGTGTCA
+                ************************************************************
+
+3_1_BroT25.C09g CATGGACAAATCTCCGACATCAATCTTCCGGT----------------------------
+4_1_BroT21.C09g CATGGACAAATCTCCGACATCAATCTTCCGGT----------------------------
+1_1_BolK_9g6377 CATGGACAAATCTCCGACATCAATCTTCCGATTTATGCAGCGTGGGACAGTTCTTCCGGT
+                ******************************.*                            
+
+3_1_BroT25.C09g ------------------------------------------------------------
+4_1_BroT21.C09g ------------------------------------------------------------
+1_1_BolK_9g6377 GGCTGTGGAATTGGAGGCATTTTCTCAGGAAATAACCTAAAGCGCATACCGAACCTGAGC
+                                                                            
+
+3_1_BroT25.C09g ----AACGCTCCCAC---------------------------------------------
+4_1_BroT21.C09g ----AACGCTCCCAC---------------------------------------------
+1_1_BolK_9g6377 GAGCCTCGCTCCCATGTATCTTCAGCTCTTATGGCAGAGGCCATAGCTGTTCGCCTCGCG
+                      ********.                                             
+
+3_1_BroT25.C09g ------------------------------------------------------------
+4_1_BroT21.C09g ------------------------------------------------------------
+1_1_BolK_9g6377 GTTGTTACATCCGTCTATTCAAACGGCCAGGGATACGTCCGATCCCTGGCCGTTCTAACC
+                                                                            
+
+3_1_BroT25.C09g ------------------------------------------------------------
+4_1_BroT21.C09g ------------------------------------------------------------
+1_1_BolK_9g6377 GATTCGCTCTCCCTCGTCTCTCTACTGAAGAAGGAAGCCACTCAACCTGAACTGTTCGGT
+                                                                            
+
+3_1_BroT25.C09g ----TGCTTAAT------------------------------------------------
+4_1_BroT21.C09g ----TGCTTAAT------------------------------------------------
+1_1_BolK_9g6377 ATCATGTTTGATATCTATCATGCTTTGTCGTACTTTGATCGGATTTCTTTTCACTTTATC
+                    **.**.**                                                
+
+3_1_BroT25.C09g ------------------------------------------------------------
+4_1_BroT21.C09g ------------------------------------------------------------
+1_1_BolK_9g6377 TCTAGGACCTTTAATGGCGAGGCTGACTTGGTGGCAAAGTCTGCTCTCACTCTGCTTTCT
+                                                                            
+
+3_1_BroT25.C09g ---------------------TAG
+4_1_BroT21.C09g ---------------------TAG
+1_1_BolK_9g6377 GTAAACTCCTCTGTTGGAGGATAA
+                                     **.

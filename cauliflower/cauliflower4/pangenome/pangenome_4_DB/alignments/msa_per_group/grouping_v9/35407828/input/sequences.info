@@ -1,0 +1,10 @@
+#Information about sequences in homology group
+#Occurance in genomes
+Present: 1(1x), 2(1x), 3(1x), 4(1x)
+Absent: 
+
+#genome, mRNA name, mRNA identifier, node identifier, address, strand
+1, , 1_1_BolK_9g63790.1, 33029938, 1 8 60559142 60563605, +
+2, , 2_1_caul9G05235.1, 33641723, 2 9 59085293 59089448, +
+4, , 4_1_BroT21.C09g54460.1, 34834079, 4 9 59535071 59539226, +
+3, , 3_1_BroT25.C09g53120.1, 34225254, 3 9 59494663 59498818, +

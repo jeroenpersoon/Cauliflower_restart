@@ -1,0 +1,4 @@
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/genomes/27622715.fna
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/genomes_filtered/GWHBKKZ00000000.filtered.fna
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/genomes_filtered/GWHDTYM00000000.filtered.fna
+/lustre/BIF/nobackup/perso009/cauliflower/cauliflower4/QC/genomes_filtered/GWHDUBS00000000.genome.filtered.fna

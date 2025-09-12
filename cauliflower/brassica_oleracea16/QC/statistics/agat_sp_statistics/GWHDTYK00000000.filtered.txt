@@ -1,0 +1,51 @@
+--------------------------------------------------------------------------------
+
+------------------------------------- mrna -------------------------------------
+Number of gene                               50938
+Number of mrna                               50938
+Number of cds                                50938
+Number of exon                               243822
+Number of exon in cds                        243822
+Number of intron in cds                      192884
+Number of intron in exon                     192884
+Number gene overlapping                      0
+Number of single exon gene                   11314
+Number of single exon mrna                   11314
+mean mrnas per gene                          1.0
+mean cdss per mrna                           1.0
+mean exons per mrna                          4.8
+mean exons per cds                           4.8
+mean introns in cdss per mrna                3.8
+mean introns in exons per mrna               3.8
+Total gene length (bp)                       100683241
+Total mrna length (bp)                       100683241
+Total cds length (bp)                        54560052
+Total exon length (bp)                       54560052
+Total intron length per cds (bp)             46123189
+Total intron length per exon (bp)            46123189
+mean gene length (bp)                        1976
+mean mrna length (bp)                        1976
+mean cds length (bp)                         1071
+mean exon length (bp)                        223
+mean cds piece length (bp)                   223
+mean intron in cds length (bp)               239
+mean intron in exon length (bp)              239
+% of genome covered by gene                  18.0
+% of genome covered by mrna                  18.0
+% of genome covered by cds                   9.8
+% of genome covered by exon                  9.8
+% of genome covered by intron from cds       8.3
+% of genome covered by intron from exon      8.3
+Longest gene (bp)                            327240
+Longest mrna (bp)                            327240
+Longest cds (bp)                             16083
+Longest exon (bp)                            6731
+Longest cds piece (bp)                       6731
+Longest intron into cds part (bp)            323774
+Longest intron into exon part (bp)           323774
+Shortest gene (bp)                           150
+Shortest mrna (bp)                           150
+Shortest cds piece (bp)                      3
+Shortest intron into cds part (bp)           24
+Shortest intron into exon part (bp)          24
+

@@ -1,0 +1,8 @@
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/27622715.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/Bnigra_NI100.v2.genes.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/GCF_000309985.2_CAAS_Brap_v3.01_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/GCF_000695525.1_BOL_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/GWHBKLA00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/GWHDTYL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/GWHERGL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/proteins/OX_heart.filtered.pep.faa

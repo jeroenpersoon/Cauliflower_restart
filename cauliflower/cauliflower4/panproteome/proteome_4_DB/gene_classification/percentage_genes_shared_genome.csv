@@ -1,0 +1,115 @@
+#13 matrices: 7 with percentages and 6 with gene counts
+
+#Three different gene counts:
+# DISTINCT  : always count a maximum 1
+# SEMI      : Counts gene copies of genome A up to number of copies in genome B.
+# EVERYTHING: Count all genes of genome A as long as the other genome has a copy.
+
+#Percentages of genes shared between two genomes. Gene counts are divided either by the sum of one or both genomes
+#1 Percentage SEMI gene counts. Derived from #11 & #12
+#2 Percentage SEMI gene counts, genome left column. Derived from #11 & #11 diagonal
+#3 Percentage DISTINCT gene counts. Derived from #7 & #8
+#4 Percentage DISTINCT based on genome in left column. Derived from #7 & #7 diagonal
+#5 Percentage informative DISTINCT based on both genomes. Derived from #9 & #10
+#6 Percentage EVERYTHING gene counts based on genome in left column. Derived from #13 & #13 diagonal
+
+#Gene counts between two genomes
+#7 shared DISTINCT genes
+#8 unshared DISTINCT genes
+#9 shared informative DISTINCT genes
+#10 unshared informative DISTINCT genes
+#11 SEMI shared genes
+#12 SEMI unshared genes
+#13 EVERYTHING shared genes
+
+
+#1 Percentage based on SEMI gene counts of both genomes (#11 & #12)
+Genomes,1,2,3,4
+1,0,44.24,46.38,44.40
+2,44.24,0,56.84,58.90
+3,46.38,56.84,0,58.56
+4,44.40,58.90,58.56,0
+
+#2 Percentage based on SEMI gene counts and the genome in the left column (#11 & diagonal #11)
+Genomes,1,2,3,4
+1,0,Infinity,Infinity,Infinity
+2,Infinity,0,Infinity,Infinity
+3,Infinity,Infinity,0,Infinity
+4,Infinity,Infinity,Infinity,0
+
+#3 Percentage based on DISTINCT gene counts of both genomes (#7 & #8)
+Genomes,1,2,3,4
+1,0,47.40,49.35,47.19
+2,47.40,0,60.20,61.96
+3,49.35,60.20,0,61.03
+4,47.19,61.96,61.03,0
+
+#4 Percentage based on DISTINCT gene counts and the genome in the left column (#7 & diagonal #7)
+Genomes,1,2,3,4
+1,0,Infinity,Infinity,Infinity
+2,Infinity,0,Infinity,Infinity
+3,Infinity,Infinity,0,Infinity
+4,Infinity,Infinity,Infinity,0
+
+#5 Percentage based on informative DISTINCT gene counts of both genomes (#9 & #10)
+Genomes,1,2,3,4
+1,0,69.62,72.23,69.18
+2,69.62,0,75.82,79.06
+3,72.23,75.82,0,76.71
+4,69.18,79.06,76.71,0
+
+#6 Percentage based on EVERYTHING gene counts and the genome in left column (#13 & diagonal #13)
+Genomes,1,2,3,4
+1,0,Infinity,Infinity,Infinity
+2,Infinity,0,Infinity,Infinity
+3,Infinity,Infinity,0,Infinity
+4,Infinity,Infinity,Infinity,0
+
+#7 shared DISTINCT genes
+Genomes,1,2,3,4
+1,0,33664,33914,33199
+2,33664,0,36522,37534
+3,33914,36522,0,36405
+4,33199,37534,36405,0
+
+#8 unshared DISTINCT genes
+Genomes,1,2,3,4
+1,0,37354,34802,37155
+2,37354,0,24144,23043
+3,34802,24144,0,23249
+4,37155,23043,23249,0
+
+#9 shared informative DISTINCT genes
+Genomes,1,2,3,4
+1,0,33664,33914,33199
+2,33664,0,36522,37534
+3,33914,36522,0,36405
+4,33199,37534,36405,0
+
+#10 unshared informative DISTINCT genes
+Genomes,1,2,3,4
+1,0,14687,13042,14787
+2,14687,0,11649,9940
+3,13042,11649,0,11053
+4,14787,9940,11053,0
+
+#11 shared SEMI genes
+Genomes,1,2,3,4
+1,0,35005,35169,34367
+2,35005,0,37921,39066
+3,35169,37921,0,37769
+4,34367,39066,37769,0
+
+#12 unshared SEMI genes
+Genomes,1,2,3,4
+1,0,44119,40666,43031
+2,44119,0,28791,27262
+3,40666,28791,0,26731
+4,43031,27262,26731,0
+
+#13 shared EVERYTHING genes based on left column
+Genomes,1,2,3,4
+1,0,36706,36477,35651
+2,36427,0,38967,39690
+3,36063,38814,0,38594
+4,35200,39676,38511,0

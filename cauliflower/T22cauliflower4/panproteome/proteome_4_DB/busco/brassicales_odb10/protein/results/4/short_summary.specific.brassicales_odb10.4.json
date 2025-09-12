@@ -1,0 +1,66 @@
+{
+    "parameters": {
+        "out_path": "/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/panproteome",
+        "cpu": "24",
+        "force": "True",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/panproteome/busco_downloads",
+        "datasets_version": "odb10",
+        "offline": "False",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "False",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "True",
+        "opt-out-run-stats": "False",
+        "in": "/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/panproteome/proteome_4_DB/proteins/for_busco/proteins_4.fasta",
+        "out": "4",
+        "mode": "proteins",
+        "lineage_dataset": "/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/panproteome/busco_downloads/lineages/brassicales_odb10",
+        "main_out": "/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/panproteome/4",
+        "lineage_results_dir": "run_brassicales_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1"
+    },
+    "lineage_dataset": {
+        "name": "brassicales_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "4596",
+        "number_of_species": "10"
+    },
+    "versions": {
+        "hmmsearch": 3.1,
+        "python": [
+            3,
+            9,
+            22,
+            "final",
+            0
+        ],
+        "busco": "5.8.3"
+    },
+    "results": {
+        "one_line_summary": "C:94.1%[S:84.6%,D:9.5%],F:0.8%,M:5.0%,n:4596",
+        "Complete percentage": 94.1,
+        "Complete BUSCOs": 4327,
+        "Single copy percentage": 84.6,
+        "Single copy BUSCOs": 3890,
+        "Multi copy percentage": 9.5,
+        "Multi copy BUSCOs": 437,
+        "Fragmented percentage": 0.8,
+        "Fragmented BUSCOs": 38,
+        "Missing percentage": 5.0,
+        "Missing BUSCOs": 231,
+        "n_markers": 4596,
+        "avg_identity": null,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 0,
+        "internal_stop_codon_percent": 0
+    }
+}

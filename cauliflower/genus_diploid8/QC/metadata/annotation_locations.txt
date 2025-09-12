@@ -1,0 +1,8 @@
+1 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/27622715.filtered.gff
+2 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/Bnigra_NI100.v2.genes.filtered.gff
+3 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/GCF_000309985.2_CAAS_Brap_v3.01_genomic.filtered.gff
+4 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/GCF_000695525.1_BOL_genomic.filtered.gff
+5 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/GWHBKLA00000000.filtered.gff
+6 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/GWHDTYL00000000.filtered.gff
+7 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/GWHERGL00000000.filtered.gff
+8 /lustre/BIF/nobackup/perso009/cauliflower/genus_diploid8/QC/annotations_filtered/OX_heart.filtered.gff

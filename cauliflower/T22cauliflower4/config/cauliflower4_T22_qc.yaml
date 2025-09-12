@@ -1,0 +1,35 @@
+### PATHS ###
+
+# directory of genomic fasta sequences with .fna extension
+genomes: T22panproteome/genomes
+
+# directory of annotations with .gff3 extension
+annotations: T22panproteome/annotations
+
+# table of matching genome and annotation files
+data_table:
+
+# custom scratch directory (default is system default)
+scratch:
+
+# output data directories
+filtered_genomes: T22panproteome/QC/genomes_filtered
+filtered_annotations: T22panproteome/QC/annotations_filtered
+proteins: T22panproteome/QC/proteins
+functions: T22panproteome/QC/functions
+statistics: T22panproteome/QC/statistics
+metadata: T22panproteome/QC/metadata
+
+### PARAMETERS ###
+
+# minimum sequence length for the genomic fasta
+min_len: 10000
+
+# only keep features of longest isoform
+longest_isoform: True
+
+# minimum size of the CDS open reading frame
+orf_size: 49
+
+# comma separated list of InterProScan analyses
+applications: "TIGRFAM,Pfam"

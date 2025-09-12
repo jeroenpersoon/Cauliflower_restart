@@ -1,0 +1,5 @@
+# 2 groups with variable sites:
+858383,858385
+
+# 2 groups with parsimony informative positions:
+858383,858385

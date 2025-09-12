@@ -1,0 +1,16 @@
+1 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/27622715.filtered.gff
+2 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/Araport11_GFF3_genes_transposons.current.filtered.gff
+3 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GCF_000695525.1_BOL_genomic.filtered.gff
+4 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHBKLA00000000.filtered.gff
+5 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTWX00000000.filtered.gff
+6 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTYA00000000.filtered.gff
+7 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTYE00000000.filtered.gff
+8 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTYJ00000000.filtered.gff
+9 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTYK00000000.filtered.gff
+10 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDTYL00000000.filtered.gff
+11 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDUBH00000000.filtered.gff
+12 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDUBI00000000.filtered.gff
+13 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDUBL00000000.filtered.gff
+14 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDUBP00000000.filtered.gff
+15 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/GWHDUBS00000000.filtered.gff
+16 /lustre/BIF/nobackup/perso009/cauliflower/brassica_oleracea16/QC/annotations_filtered/OX_heart.filtered.gff

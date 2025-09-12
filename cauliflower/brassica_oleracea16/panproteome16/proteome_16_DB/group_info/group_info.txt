@@ -1,0 +1,874 @@
+#Homology group 897205
+All gene names: 
+All functions : 
+Protein sizes : 491(14x),518(1x),520(1x)
+Number of genes/proteins: 16
+Gene copy number: [1, 0, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: BroT17.C07g47880.1
+Genome: 14
+Protein length: 491
+mRNA node id: 685120
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C07g43660.1
+Genome: 9
+Protein length: 491
+mRNA node id: 437710
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro7G05095.1
+Genome: 4
+Protein length: 491
+mRNA node id: 166323
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C07g46050.1
+Genome: 11
+Protein length: 491
+mRNA node id: 507396
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C07g45300.1
+Genome: 6
+Protein length: 491
+mRNA node id: 259215
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C07g43820.1
+Genome: 15
+Protein length: 491
+mRNA node id: 755156
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C07g45260.1
+Genome: 6
+Protein length: 491
+mRNA node id: 259211
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_7g54280.1
+Genome: 16
+Protein length: 520
+mRNA node id: 813061
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C07g45390.1
+Genome: 13
+Protein length: 491
+mRNA node id: 632813
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013741084.1
+Genome: 3
+Protein length: 491
+mRNA node id: 114104
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C07g45680.1
+Genome: 12
+Protein length: 491
+mRNA node id: 599583
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C07g45600.1
+Genome: 7
+Protein length: 491
+mRNA node id: 312036
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C07g43670.1
+Genome: 8
+Protein length: 491
+mRNA node id: 386569
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C07g45280.1
+Genome: 5
+Protein length: 491
+mRNA node id: 241797
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g52800.1
+Genome: 1
+Protein length: 518
+mRNA node id: 45872
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C07g45640.1
+Genome: 10
+Protein length: 491
+mRNA node id: 454698
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 848594
+All gene names: 
+All functions : 
+Protein sizes : 2010(1x),2164(1x),2195(2x),2196(3x),2197(4x),2336(1x),2476(1x)
+Number of genes/proteins: 13
+Gene copy number: [1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: BroT10.C01g16490.1
+Genome: 12
+Protein length: 2195
+mRNA node id: 569788
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C01g16270.1
+Genome: 14
+Protein length: 2196
+mRNA node id: 692685
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C01g16260.1
+Genome: 7
+Protein length: 2196
+mRNA node id: 319192
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C01g16180.1
+Genome: 10
+Protein length: 2336
+mRNA node id: 469079
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro1G01668.1
+Genome: 4
+Protein length: 2197
+mRNA node id: 174652
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013754036.1
+Genome: 3
+Protein length: 2197
+mRNA node id: 116531
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C01g16750.1
+Genome: 13
+Protein length: 2197
+mRNA node id: 618560
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C01g16070.1
+Genome: 8
+Protein length: 2476
+mRNA node id: 349755
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C01g16040.1
+Genome: 15
+Protein length: 2197
+mRNA node id: 718019
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_1g17120.1
+Genome: 16
+Protein length: 2010
+mRNA node id: 769634
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C01g16330.1
+Genome: 5
+Protein length: 2196
+mRNA node id: 207590
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_1g17720.1
+Genome: 1
+Protein length: 2164
+mRNA node id: 2373
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C01g16870.1
+Genome: 11
+Protein length: 2195
+mRNA node id: 535877
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 842505
+All gene names: 
+All functions : 
+Protein sizes : 451(1x),531(2x),556(1x),561(1x),565(1x),605(9x),607(1x),608(3x),609(2x),610(9x)
+Number of genes/proteins: 30
+Gene copy number: [2, 1, 2, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+
+mRNA id: BolO_3g38490.1
+Genome: 16
+Protein length: 605
+mRNA node id: 784296
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_3g38450.1
+Genome: 1
+Protein length: 605
+mRNA node id: 16731
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C03g34360.1
+Genome: 7
+Protein length: 451
+mRNA node id: 326144
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C09g00500.1
+Genome: 12
+Protein length: 610
+mRNA node id: 556251
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C09g00660.1
+Genome: 14
+Protein length: 610
+mRNA node id: 661610
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C03g34300.1
+Genome: 5
+Protein length: 608
+mRNA node id: 232640
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro5G06150.1
+Genome: 4
+Protein length: 608
+mRNA node id: 137158
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C09g00460.1
+Genome: 9
+Protein length: 610
+mRNA node id: 443949
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C03g34330.1
+Genome: 10
+Protein length: 605
+mRNA node id: 482241
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C09g00430.1
+Genome: 10
+Protein length: 610
+mRNA node id: 472698
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C03g33320.1
+Genome: 9
+Protein length: 608
+mRNA node id: 413073
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C03g33870.1
+Genome: 14
+Protein length: 605
+mRNA node id: 699768
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C09g00460.1
+Genome: 8
+Protein length: 565
+mRNA node id: 392763
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C09g00450.1
+Genome: 7
+Protein length: 531
+mRNA node id: 336519
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013766358.1
+Genome: 3
+Protein length: 605
+mRNA node id: 127265
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C03g34190.1
+Genome: 13
+Protein length: 605
+mRNA node id: 612226
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C03g33390.1
+Genome: 8
+Protein length: 561
+mRNA node id: 361973
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C09g00470.1
+Genome: 15
+Protein length: 610
+mRNA node id: 761791
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013756292.1
+Genome: 3
+Protein length: 609
+mRNA node id: 97312
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C03g34510.1
+Genome: 6
+Protein length: 605
+mRNA node id: 273574
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C09g00450.1
+Genome: 6
+Protein length: 610
+mRNA node id: 284102
+No functional annotations connected to mRNA nodes
+
+mRNA id: AT4G00570.1
+Genome: 2
+Protein length: 607
+mRNA node id: 77056
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C09g00440.1
+Genome: 11
+Protein length: 531
+mRNA node id: 527881
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C03g33720.1
+Genome: 15
+Protein length: 605
+mRNA node id: 730562
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C03g34930.1
+Genome: 12
+Protein length: 605
+mRNA node id: 604109
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C09g00460.1
+Genome: 13
+Protein length: 610
+mRNA node id: 644967
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_0g03690.1
+Genome: 1
+Protein length: 610
+mRNA node id: 365
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_9g00500.1
+Genome: 16
+Protein length: 610
+mRNA node id: 820289
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C03g34900.1
+Genome: 11
+Protein length: 556
+mRNA node id: 517337
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C09g00530.1
+Genome: 5
+Protein length: 609
+mRNA node id: 222937
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 842588
+All gene names: 
+All functions : 
+Protein sizes : 2149(1x),2150(1x),2159(6x),2160(7x)
+Number of genes/proteins: 15
+Gene copy number: [1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: BroT19.C05g56820.1
+Genome: 10
+Protein length: 2160
+mRNA node id: 492595
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C05g55310.1
+Genome: 8
+Protein length: 2160
+mRNA node id: 377748
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro3G00049.1
+Genome: 4
+Protein length: 2159
+mRNA node id: 167481
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C05g54900.1
+Genome: 9
+Protein length: 2160
+mRNA node id: 428909
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C05g56640.1
+Genome: 5
+Protein length: 2159
+mRNA node id: 222848
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C05g55280.1
+Genome: 7
+Protein length: 2160
+mRNA node id: 301351
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C05g55900.1
+Genome: 12
+Protein length: 2159
+mRNA node id: 568105
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C05g56790.1
+Genome: 11
+Protein length: 2159
+mRNA node id: 549865
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C05g55850.1
+Genome: 14
+Protein length: 2150
+mRNA node id: 673879
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C05g56850.1
+Genome: 6
+Protein length: 2159
+mRNA node id: 248544
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C05g57060.1
+Genome: 13
+Protein length: 2160
+mRNA node id: 639533
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013729957.1
+Genome: 3
+Protein length: 2159
+mRNA node id: 97016
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_5g65380.2
+Genome: 16
+Protein length: 2149
+mRNA node id: 802632
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C06g43500.1
+Genome: 15
+Protein length: 2160
+mRNA node id: 750238
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_5g63000.1
+Genome: 1
+Protein length: 2160
+mRNA node id: 35502
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 889717
+All gene names: 
+All functions : 
+Protein sizes : 5076(8x),5077(7x),5098(1x)
+Number of genes/proteins: 16
+Gene copy number: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: bro3G00102.1
+Genome: 4
+Protein length: 5077
+mRNA node id: 167534
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C05g54760.1
+Genome: 7
+Protein length: 5077
+mRNA node id: 301299
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C05g56320.1
+Genome: 10
+Protein length: 5076
+mRNA node id: 492545
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C05g56110.1
+Genome: 5
+Protein length: 5077
+mRNA node id: 222795
+No functional annotations connected to mRNA nodes
+
+mRNA id: AT3G02260.1
+Genome: 2
+Protein length: 5098
+mRNA node id: 71763
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C05g54790.1
+Genome: 8
+Protein length: 5077
+mRNA node id: 377696
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C05g54400.1
+Genome: 9
+Protein length: 5076
+mRNA node id: 428859
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C05g55390.1
+Genome: 12
+Protein length: 5077
+mRNA node id: 568054
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C05g55360.1
+Genome: 14
+Protein length: 5077
+mRNA node id: 673830
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_5g62460.1
+Genome: 1
+Protein length: 5076
+mRNA node id: 35448
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013728085.1
+Genome: 3
+Protein length: 5076
+mRNA node id: 96973
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C05g56260.1
+Genome: 11
+Protein length: 5076
+mRNA node id: 549812
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C05g56550.1
+Genome: 13
+Protein length: 5076
+mRNA node id: 639482
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_5g64870.1
+Genome: 16
+Protein length: 5077
+mRNA node id: 802581
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C05g56350.1
+Genome: 6
+Protein length: 5076
+mRNA node id: 248494
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C05g53020.1
+Genome: 15
+Protein length: 5076
+mRNA node id: 745809
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 896618
+All gene names: 
+All functions : 
+Protein sizes : 4693(12x),4694(1x),4696(1x),4706(1x)
+Number of genes/proteins: 15
+Gene copy number: [1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: rna-XM_013739752.1
+Genome: 3
+Protein length: 4693
+mRNA node id: 113478
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C07g36520.1
+Genome: 15
+Protein length: 4693
+mRNA node id: 754426
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C07g38600.1
+Genome: 11
+Protein length: 4696
+mRNA node id: 506651
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C07g38210.1
+Genome: 12
+Protein length: 4693
+mRNA node id: 598836
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C07g28330.1
+Genome: 10
+Protein length: 4693
+mRNA node id: 452967
+No functional annotations connected to mRNA nodes
+
+mRNA id: AT5G23110.1
+Genome: 2
+Protein length: 4706
+mRNA node id: 83317
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro7G04341.1
+Genome: 4
+Protein length: 4693
+mRNA node id: 165569
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C07g36530.1
+Genome: 8
+Protein length: 4693
+mRNA node id: 385856
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C07g38120.1
+Genome: 13
+Protein length: 4693
+mRNA node id: 632087
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_7g45970.1
+Genome: 16
+Protein length: 4693
+mRNA node id: 812232
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C07g37960.1
+Genome: 5
+Protein length: 4693
+mRNA node id: 241066
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g44680.1
+Genome: 1
+Protein length: 4693
+mRNA node id: 45068
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT07.C07g37850.1
+Genome: 6
+Protein length: 4694
+mRNA node id: 258471
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C07g36190.1
+Genome: 9
+Protein length: 4693
+mRNA node id: 436965
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C07g40010.1
+Genome: 14
+Protein length: 4693
+mRNA node id: 684333
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 896488
+All gene names: 
+All functions : 
+Protein sizes : 3451(1x),3453(13x),3456(1x),3521(1x)
+Number of genes/proteins: 16
+Gene copy number: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+mRNA id: BroT07.C07g36570.1
+Genome: 6
+Protein length: 3453
+mRNA node id: 258343
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C07g36750.1
+Genome: 7
+Protein length: 3453
+mRNA node id: 311152
+No functional annotations connected to mRNA nodes
+
+mRNA id: AT5G24740.3
+Genome: 2
+Protein length: 3521
+mRNA node id: 83490
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C07g35200.1
+Genome: 8
+Protein length: 3451
+mRNA node id: 385723
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C07g36930.1
+Genome: 12
+Protein length: 3453
+mRNA node id: 598708
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT17.C07g38670.1
+Genome: 14
+Protein length: 3453
+mRNA node id: 684199
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C07g29650.1
+Genome: 10
+Protein length: 3453
+mRNA node id: 453099
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro7G04208.1
+Genome: 4
+Protein length: 3453
+mRNA node id: 165436
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_7g44450.1
+Genome: 16
+Protein length: 3453
+mRNA node id: 812080
+No functional annotations connected to mRNA nodes
+
+mRNA id: rna-XM_013742036.1
+Genome: 3
+Protein length: 3456
+mRNA node id: 113359
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT08.C07g36690.1
+Genome: 13
+Protein length: 3453
+mRNA node id: 631944
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C07g37240.1
+Genome: 11
+Protein length: 3453
+mRNA node id: 506515
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g43190.1
+Genome: 1
+Protein length: 3453
+mRNA node id: 44919
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C07g36570.1
+Genome: 5
+Protein length: 3453
+mRNA node id: 240927
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C07g35200.1
+Genome: 15
+Protein length: 3453
+mRNA node id: 754294
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT24.C07g34880.1
+Genome: 9
+Protein length: 3453
+mRNA node id: 436836
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 875075
+All gene names: 
+All functions : 
+Protein sizes : 2659(1x),2730(1x),2786(1x),3013(1x),3020(7x),3023(3x)
+Number of genes/proteins: 14
+Gene copy number: [1, 1, 0, 1, 1, 0, 1, 1, 0, 3, 1, 1, 1, 0, 1, 1]
+
+mRNA id: BroT08.C03g57890.1
+Genome: 13
+Protein length: 3020
+mRNA node id: 614595
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolO_3g64210.1
+Genome: 16
+Protein length: 3023
+mRNA node id: 786859
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT10.C03g59070.1
+Genome: 12
+Protein length: 3020
+mRNA node id: 606521
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C03g56880.1
+Genome: 15
+Protein length: 3020
+mRNA node id: 732876
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT13.C03g58030.1
+Genome: 7
+Protein length: 3020
+mRNA node id: 328508
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_3g65260.1
+Genome: 1
+Protein length: 3023
+mRNA node id: 19398
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C03g58760.1
+Genome: 10
+Protein length: 2730
+mRNA node id: 484684
+No functional annotations connected to mRNA nodes
+
+mRNA id: AT3G48190.2
+Genome: 2
+Protein length: 3013
+mRNA node id: 75384
+No functional annotations connected to mRNA nodes
+
+mRNA id: bro3G02800.1
+Genome: 4
+Protein length: 3023
+mRNA node id: 170232
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.S27g00020.1
+Genome: 10
+Protein length: 2659
+mRNA node id: 502729
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT19.C03g58730.1
+Genome: 10
+Protein length: 2786
+mRNA node id: 484681
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT12.C03g59520.1
+Genome: 11
+Protein length: 3020
+mRNA node id: 519799
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT06.C03g56440.1
+Genome: 8
+Protein length: 3020
+mRNA node id: 364277
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT02.C03g58260.1
+Genome: 5
+Protein length: 3020
+mRNA node id: 235036
+No functional annotations connected to mRNA nodes
+
+

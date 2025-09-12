@@ -1,0 +1,26 @@
+#!/bin/bash
+
+#set variables
+#CPU=24
+#tmpdir="/dev/shm/perso009/cauliflower"
+
+#List Data
+#realpath ../cauliflower4/genomes_filtered/* > genomes.txt
+#realpath ../cauliflower4/annotations_filtered/* | awk '{print FNR,$1;}' > annotations.txt
+
+#*.faa makes sure that the path to the logs dir will not be included
+#protein sequence files need to end in .faa
+realpath ../cauliflower4/proteins/*.faa > proteins.txt
+
+
+#Build pangenome
+#pantools -Xmx200g -Xms200g build_pangenome --threads ${CPU} --scratch-directory ${tmpdir}/scratch ${tmpdir}/pangenome_DB genomes.txt
+
+#Build panproteome
+pantools -Xmx200g -Xms200g build_panproteome proteome_DB proteins.txt
+
+#Run Busco to estimate optimal grouping
+pantools busco_protein --odb10=brassicales_odb10 proteome_DB/
+
+#Copy back
+cp -vr ${tmpdir}/proteome_DB ../cauliflower4

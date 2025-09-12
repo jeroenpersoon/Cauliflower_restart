@@ -1,0 +1,15 @@
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GCF_000695525.1_BOL_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHBKLA00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTWX00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTYA00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTYE00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTYJ00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTYK00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDTYL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDUBH00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDUBI00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDUBL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDUBP00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/GWHDUBS00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/OX_heart.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower/T22species_oleracea15/QC/proteins/T22.chr.filtered.pep.faa

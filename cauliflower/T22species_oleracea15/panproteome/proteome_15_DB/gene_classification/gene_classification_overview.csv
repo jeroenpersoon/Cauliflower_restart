@@ -1,0 +1,16 @@
+Genome,Total groups,Core groups,Accessory groups,Unique groups,Total mRNAs,Core mRNAs,% of genome core,Accessory mRNAs,% genome accessory,Unique mRNAs,% of genome unique,Singleton groups (unique groups with only one mRNA),Median gene copies per group,Average gene copies per group,Standard deviation - gene copies per group,Median gene copies per group (longest transcripts),Average gene copies per group (longest transcripts),Standard deviation - Gene copies per group (longest transcripts),Median CDS alleles per group,Average CDS alleles per group,Standard deviation - CDS alleles per group,Median CDS alleles per group (longest transcripts),Average CDS alleles per group (longest transcripts),Standard deviation - CDS alleles per group (longest transcripts),Median protein alleles per group,Average protein alleles per group,Standard deviation - protein alleles per group,Median protein alleles per group (longest transcripts),Average protein alleles per group (longest transcripts),Standard deviation - protein alleles per group (longest transcripts),
+1,39504,19285,16165,4054,43601,21618,49.58,17425,39.96,4558,10.45,3791
+10,48300,19285,25731,3284,52606,21514,40.90,27675,52.61,3417,6.50,3217
+11,48324,19285,25494,3545,52704,21522,40.84,27525,52.23,3657,6.94,3470
+12,49399,19285,25327,4787,54905,22377,40.76,27673,50.40,4855,8.84,4732
+13,47378,19285,25048,3045,51515,21486,41.71,26909,52.24,3120,6.06,2992
+14,55376,19285,22221,13870,61869,21601,34.91,25253,40.82,15015,24.27,13452
+15,46627,19285,24300,3042,51028,21498,42.13,26373,51.68,3157,6.19,2962
+2,52480,19285,22054,11141,59398,21431,36.08,25059,42.19,12908,21.73,10169
+3,48029,19285,25608,3136,52455,21530,41.04,27664,52.74,3261,6.22,3059
+4,48471,19285,25316,3870,52963,21576,40.74,27380,51.70,4007,7.57,3789
+5,48016,19285,25014,3717,52323,21597,41.28,26903,51.42,3823,7.31,3638
+6,46556,19285,24346,2925,51047,21676,42.46,26363,51.64,3008,5.89,2867
+7,46657,19285,24556,2816,50938,21558,42.32,26485,51.99,2895,5.68,2757
+8,48313,19285,25226,3802,52658,21510,40.85,27259,51.77,3889,7.39,3737
+9,48892,19285,25796,3811,53408,21568,40.38,27937,52.31,3903,7.31,3747

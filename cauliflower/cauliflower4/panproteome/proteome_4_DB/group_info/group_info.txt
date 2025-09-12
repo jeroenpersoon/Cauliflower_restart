@@ -1,0 +1,250 @@
+#Homology group 266134
+All gene names: 
+All functions : 
+Protein sizes : 491(3x),518(1x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C07g43820.1
+Genome: 4
+Protein length: 491
+mRNA node id: 203641
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g52800.1
+Genome: 1
+Protein length: 518
+mRNA node id: 45872
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul7G04563.1
+Genome: 2
+Protein length: 491
+mRNA node id: 101429
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C07g43570.1
+Genome: 3
+Protein length: 491
+mRNA node id: 152520
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 220308
+All gene names: 
+All functions : 
+Protein sizes : 2164(1x),2195(1x),2197(2x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C01g16040.1
+Genome: 4
+Protein length: 2197
+mRNA node id: 166504
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul1G01639.1
+Genome: 2
+Protein length: 2197
+mRNA node id: 61907
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_1g17720.1
+Genome: 1
+Protein length: 2164
+mRNA node id: 2373
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C01g16320.1
+Genome: 3
+Protein length: 2195
+mRNA node id: 115775
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 217013
+All gene names: 
+All functions : 
+Protein sizes : 2137(3x)
+Number of genes/proteins: 3
+Gene copy number: [1, 0, 1, 1]
+
+mRNA id: BolK_0g03960.1
+Genome: 1
+Protein length: 2137
+mRNA node id: 391
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C01g48510.1
+Genome: 4
+Protein length: 2137
+mRNA node id: 169750
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C01g49900.1
+Genome: 3
+Protein length: 2137
+mRNA node id: 119128
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 257508
+All gene names: 
+All functions : 
+Protein sizes : 2160(4x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C06g43500.1
+Genome: 4
+Protein length: 2160
+mRNA node id: 198723
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_5g63000.1
+Genome: 1
+Protein length: 2160
+mRNA node id: 35502
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul5G05882.1
+Genome: 2
+Protein length: 2160
+mRNA node id: 92540
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C05g55520.1
+Genome: 3
+Protein length: 2160
+mRNA node id: 143760
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 257473
+All gene names: 
+All functions : 
+Protein sizes : 5076(4x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C05g53020.1
+Genome: 4
+Protein length: 5076
+mRNA node id: 194294
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C05g55020.1
+Genome: 3
+Protein length: 5076
+mRNA node id: 143710
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul5G05831.1
+Genome: 2
+Protein length: 5076
+mRNA node id: 92489
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_5g62460.1
+Genome: 1
+Protein length: 5076
+mRNA node id: 35448
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 265513
+All gene names: 
+All functions : 
+Protein sizes : 4693(4x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C07g36520.1
+Genome: 4
+Protein length: 4693
+mRNA node id: 202911
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g44680.1
+Genome: 1
+Protein length: 4693
+mRNA node id: 45068
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul7G03807.1
+Genome: 2
+Protein length: 4693
+mRNA node id: 100673
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C07g36270.1
+Genome: 3
+Protein length: 4693
+mRNA node id: 151792
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 265368
+All gene names: 
+All functions : 
+Protein sizes : 3453(4x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: caul7G03665.1
+Genome: 2
+Protein length: 3453
+mRNA node id: 100531
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C07g34940.1
+Genome: 3
+Protein length: 3453
+mRNA node id: 151660
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT21.C07g35200.1
+Genome: 4
+Protein length: 3453
+mRNA node id: 202779
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_7g43190.1
+Genome: 1
+Protein length: 3453
+mRNA node id: 44919
+No functional annotations connected to mRNA nodes
+
+
+#Homology group 242000
+All gene names: 
+All functions : 
+Protein sizes : 3020(2x),3023(2x)
+Number of genes/proteins: 4
+Gene copy number: [1, 1, 1, 1]
+
+mRNA id: BroT21.C03g56880.1
+Genome: 4
+Protein length: 3020
+mRNA node id: 181361
+No functional annotations connected to mRNA nodes
+
+mRNA id: BolK_3g65260.1
+Genome: 1
+Protein length: 3023
+mRNA node id: 19398
+No functional annotations connected to mRNA nodes
+
+mRNA id: BroT25.C03g56360.1
+Genome: 3
+Protein length: 3020
+mRNA node id: 130274
+No functional annotations connected to mRNA nodes
+
+mRNA id: caul3G06118.1
+Genome: 2
+Protein length: 3023
+mRNA node id: 77859
+No functional annotations connected to mRNA nodes
+
+

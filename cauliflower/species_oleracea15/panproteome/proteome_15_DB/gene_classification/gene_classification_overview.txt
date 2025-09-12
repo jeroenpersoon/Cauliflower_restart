@@ -1,0 +1,212 @@
+Grouping version: 9
+Minimum required protein similarity: 85%
+Genomes: 15 out of 15
+Sequences: 0 out of 0
+mRNAs in analysis: 802640
+Homology groups: 161588/161588
+Single-copy ortholog groups: 15791 9.77%
+
+Core groups     : 19426 12.02%
+Accessory groups: 65343 40.44%
+Unique groups   : 76819 47.54%
+
+Average % of genes per class for individual GENOMES, standard deviation, median, range
+Core     : 40.93, 3.34, 41.19, 35.16-49.91%
+Accessory: 49.26, 3.97, 51.37, 39.90-52.47%
+Unique   : 9.80, 5.31, 7.42, 5.92-21.17%
+
+#Genome 1. 
+Total mRNAs: 60250
+Core       : 21715 36.04%
+Accessory  : 27462 45.58%
+Unique     : 11073 18.38%
+
+Total groups: 54599
+Core        : 19426 35.58%
+Accessory   : 24526 44.92%
+Unique      : 10647 19.50%
+
+mRNAs without homology: 10403 17.27%
+
+#Genome 10. 
+Total mRNAs: 53408
+Core       : 21712 40.65%
+Accessory  : 27797 52.05%
+Unique     : 3899 7.30%
+
+Total groups: 48903
+Core        : 19426 39.72%
+Accessory   : 25669 52.49%
+Unique      : 3808 7.79%
+
+mRNAs without homology: 3745 7.01%
+
+#Genome 11. 
+Total mRNAs: 52606
+Core       : 21683 41.22%
+Accessory  : 27518 52.31%
+Unique     : 3405 6.47%
+
+Total groups: 48289
+Core        : 19426 40.23%
+Accessory   : 25582 52.98%
+Unique      : 3281 6.79%
+
+mRNAs without homology: 3215 6.11%
+
+#Genome 12. 
+Total mRNAs: 52704
+Core       : 21684 41.14%
+Accessory  : 27369 51.93%
+Unique     : 3651 6.93%
+
+Total groups: 48372
+Core        : 19426 40.16%
+Accessory   : 25382 52.47%
+Unique      : 3564 7.37%
+
+mRNAs without homology: 3501 6.64%
+
+#Genome 13. 
+Total mRNAs: 54905
+Core       : 22534 41.04%
+Accessory  : 27454 50.00%
+Unique     : 4917 8.96%
+
+Total groups: 49372
+Core        : 19426 39.35%
+Accessory   : 25099 50.84%
+Unique      : 4847 9.82%
+
+mRNAs without homology: 4787 8.72%
+
+#Genome 14. 
+Total mRNAs: 51515
+Core       : 21640 42.01%
+Accessory  : 26688 51.81%
+Unique     : 3187 6.19%
+
+Total groups: 47368
+Core        : 19426 41.01%
+Accessory   : 24832 52.42%
+Unique      : 3110 6.57%
+
+mRNAs without homology: 3059 5.94%
+
+#Genome 15. 
+Total mRNAs: 61869
+Core       : 21752 35.16%
+Accessory  : 27020 43.67%
+Unique     : 13097 21.17%
+
+Total groups: 55561
+Core        : 19426 34.96%
+Accessory   : 23827 42.88%
+Unique      : 12308 22.15%
+
+mRNAs without homology: 12019 19.43%
+
+#Genome 2. 
+Total mRNAs: 43601
+Core       : 21763 49.91%
+Accessory  : 17397 39.90%
+Unique     : 4441 10.19%
+
+Total groups: 39519
+Core        : 19426 49.16%
+Accessory   : 16133 40.82%
+Unique      : 3960 10.02%
+
+mRNAs without homology: 3703 8.49%
+
+#Genome 3. 
+Total mRNAs: 59398
+Core       : 21564 36.30%
+Accessory  : 25431 42.81%
+Unique     : 12403 20.88%
+
+Total groups: 52488
+Core        : 19426 37.01%
+Accessory   : 22305 42.50%
+Unique      : 10757 20.49%
+
+mRNAs without homology: 9857 16.59%
+
+#Genome 4. 
+Total mRNAs: 52455
+Core       : 21673 41.32%
+Accessory  : 27524 52.47%
+Unique     : 3258 6.21%
+
+Total groups: 48053
+Core        : 19426 40.43%
+Accessory   : 25497 53.06%
+Unique      : 3130 6.51%
+
+mRNAs without homology: 3052 5.82%
+
+#Genome 5. 
+Total mRNAs: 52963
+Core       : 21736 41.04%
+Accessory  : 27208 51.37%
+Unique     : 4019 7.59%
+
+Total groups: 48483
+Core        : 19426 40.07%
+Accessory   : 25178 51.93%
+Unique      : 3879 8.00%
+
+mRNAs without homology: 3796 7.17%
+
+#Genome 6. 
+Total mRNAs: 52323
+Core       : 21758 41.58%
+Accessory  : 26682 50.99%
+Unique     : 3883 7.42%
+
+Total groups: 48025
+Core        : 19426 40.45%
+Accessory   : 24822 51.69%
+Unique      : 3777 7.86%
+
+mRNAs without homology: 3701 7.07%
+
+#Genome 7. 
+Total mRNAs: 51047
+Core       : 21838 42.78%
+Accessory  : 26129 51.19%
+Unique     : 3080 6.03%
+
+Total groups: 46557
+Core        : 19426 41.73%
+Accessory   : 24137 51.84%
+Unique      : 2994 6.43%
+
+mRNAs without homology: 2929 5.74%
+
+#Genome 8. 
+Total mRNAs: 50938
+Core       : 21705 42.61%
+Accessory  : 26217 51.47%
+Unique     : 3016 5.92%
+
+Total groups: 46664
+Core        : 19426 41.63%
+Accessory   : 24313 52.10%
+Unique      : 2925 6.27%
+
+mRNAs without homology: 2861 5.62%
+
+#Genome 9. 
+Total mRNAs: 52658
+Core       : 21689 41.19%
+Accessory  : 27059 51.39%
+Unique     : 3910 7.43%
+
+Total groups: 48302
+Core        : 19426 40.22%
+Accessory   : 25044 51.85%
+Unique      : 3832 7.93%
+
+mRNAs without homology: 3771 7.16%
+

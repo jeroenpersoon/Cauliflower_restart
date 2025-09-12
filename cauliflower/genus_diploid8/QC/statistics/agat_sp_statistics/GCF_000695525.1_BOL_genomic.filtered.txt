@@ -1,0 +1,289 @@
+--------------------------------------------------------------------------------
+
+------------------------------------ region ------------------------------------
+Number of region                                            459
+Number region overlapping                                   0
+Total region length (bp)                                    467121757
+mean region length (bp)                                     1017694
+median region length (bp)                                   29287
+90 percentile region length (bp)                            105593
+% of genome covered by region                               99.4
+Longest region (bp)                                         64984695
+Shortest region (bp)                                        10018
+
+----------------------------------- lnc_rna ------------------------------------
+Number of gene                                              3917
+Number of lnc_rna                                           3917
+Number of exon                                              14188
+Number of intron in exon                                    10271
+Number gene overlapping                                     16
+mean lnc_rnas per gene                                      1.0
+mean exons per lnc_rna                                      3.6
+mean introns in exons per lnc_rna                           2.6
+Total gene length (bp)                                      6508343
+Total lnc_rna length (bp)                                   6508343
+Total exon length (bp)                                      3598748
+Total intron length per exon (bp)                           2909595
+mean gene length (bp)                                       1662
+mean lnc_rna length (bp)                                    1662
+mean exon length (bp)                                       254
+mean intron in exon length (bp)                             283
+median gene length (bp)                                     1278
+median lnc_rna length (bp)                                  1278
+median exon length (bp)                                     179
+median intron in exon length (bp)                           104
+90 percentile gene length (bp)                              2789
+90 percentile lnc_rna length (bp)                           2789
+90 percentile exon length (bp)                              514
+90 percentile intron in exon length (bp)                    410
+% of genome covered by gene                                 1.4
+% of genome covered by lnc_rna                              1.4
+% of genome covered by exon                                 0.8
+% of genome covered by intron from exon                     0.6
+Longest gene (bp)                                           26970
+Longest lnc_rna (bp)                                        26970
+Longest exon (bp)                                           6695
+Longest intron into exon part (bp)                          22768
+Shortest gene (bp)                                          161
+Shortest lnc_rna (bp)                                       161
+Shortest intron into exon part (bp)                         34
+
+------------------------------------- mrna -------------------------------------
+Number of gene                                              43601
+Number of mrna                                              43601
+Number of mrnas with utr both sides                         32531
+Number of mrnas with at least one utr                       36128
+Number of cds                                               43601
+Number of exon                                              225025
+Number of five_prime_utr                                    34227
+Number of three_prime_utr                                   34432
+Number of exon in cds                                       215221
+Number of exon in five_prime_utr                            41820
+Number of exon in three_prime_utr                           36401
+Number of intron in cds                                     171620
+Number of intron in exon                                    181424
+Number of intron in five_prime_utr                          7593
+Number of intron in three_prime_utr                         1969
+Number gene overlapping                                     1476
+Number of single exon gene                                  8104
+Number of single exon mrna                                  8104
+mean mrnas per gene                                         1.0
+mean cdss per mrna                                          1.0
+mean exons per mrna                                         5.2
+mean five_prime_utrs per mrna                               0.8
+mean three_prime_utrs per mrna                              0.8
+mean exons per cds                                          4.9
+mean exons per five_prime_utr                               1.2
+mean exons per three_prime_utr                              1.1
+mean introns in cdss per mrna                               3.9
+mean introns in exons per mrna                              4.2
+mean introns in five_prime_utrs per mrna                    0.2
+mean introns in three_prime_utrs per mrna                   0.0
+Total gene length (bp)                                      106737922
+Total mrna length (bp)                                      106336279
+Total cds length (bp)                                       52564174
+Total exon length (bp)                                      64496659
+Total five_prime_utr length (bp)                            5257735
+Total three_prime_utr length (bp)                           6674750
+Total intron length per cds (bp)                            37588154
+Total intron length per exon (bp)                           41839620
+Total intron length per five_prime_utr (bp)                 3203684
+Total intron length per three_prime_utr (bp)                941160
+mean gene length (bp)                                       2448
+mean mrna length (bp)                                       2439
+mean cds length (bp)                                        1206
+mean exon length (bp)                                       287
+mean five_prime_utr length (bp)                             154
+mean three_prime_utr length (bp)                            194
+mean cds piece length (bp)                                  244
+mean five_prime_utr piece length (bp)                       126
+mean three_prime_utr piece length (bp)                      183
+mean intron in cds length (bp)                              219
+mean intron in exon length (bp)                             231
+mean intron in five_prime_utr length (bp)                   422
+mean intron in three_prime_utr length (bp)                  478
+median gene length (bp)                                     1921
+median mrna length (bp)                                     1916
+median cds length (bp)                                      137
+median exon length (bp)                                     163
+median five_prime_utr length (bp)                           96
+median three_prime_utr length (bp)                          170
+median cds piece length (bp)                                137
+median five_prime_utr piece length (bp)                     96
+median three_prime_utr piece length (bp)                    170
+median intron in cds length (bp)                            94
+median intron in exon length (bp)                           95
+median intron in five_prime_utr length (bp)                 205
+median intron in three_prime_utr length (bp)                113
+90 percentile gene length (bp)                              4422
+90 percentile mrna length (bp)                              4402
+90 percentile cds length (bp)                               546
+90 percentile exon length (bp)                              640
+90 percentile five_prime_utr length (bp)                    253
+90 percentile three_prime_utr length (bp)                   297
+90 percentile cds piece length (bp)                         546
+90 percentile five_prime_utr piece length (bp)              253
+90 percentile three_prime_utr piece length (bp)             297
+90 percentile intron in cds length (bp)                     344
+90 percentile intron in exon length (bp)                    366
+90 percentile intron in five_prime_utr length (bp)          622
+90 percentile intron in three_prime_utr length (bp)         775
+% of genome covered by gene                                 22.7
+% of genome covered by mrna                                 22.6
+% of genome covered by cds                                  11.2
+% of genome covered by exon                                 13.7
+% of genome covered by five_prime_utr                       1.1
+% of genome covered by three_prime_utr                      1.4
+% of genome covered by intron from cds                      8.0
+% of genome covered by intron from exon                     8.9
+% of genome covered by intron from five_prime_utr           0.7
+% of genome covered by intron from three_prime_utr          0.2
+Longest gene (bp)                                           67230
+Longest mrna (bp)                                           67230
+Longest cds (bp)                                            16095
+Longest exon (bp)                                           11054
+Longest five_prime_utr (bp)                                 4743
+Longest three_prime_utr (bp)                                3353
+Longest cds piece (bp)                                      11054
+Longest five_prime_utr piece (bp)                           3685
+Longest three_prime_utr piece (bp)                          3353
+Longest intron into cds part (bp)                           66525
+Longest intron into exon part (bp)                          66525
+Longest intron into five_prime_utr part (bp)                34718
+Longest intron into three_prime_utr part (bp)               37769
+Shortest gene (bp)                                          153
+Shortest mrna (bp)                                          153
+Shortest cds piece (bp)                                     1
+Shortest five_prime_utr piece (bp)                          1
+Shortest three_prime_utr piece (bp)                         1
+Shortest intron into cds part (bp)                          1
+Shortest intron into exon part (bp)                         1
+Shortest intron into five_prime_utr part (bp)               30
+Shortest intron into three_prime_utr part (bp)              30
+
+------------------------------------- rna --------------------------------------
+Number of pseudogene                                        4409
+Number of rna                                               4409
+Number of exon                                              20931
+Number of intron in exon                                    16522
+Number pseudogene overlapping                               14
+Number of single exon pseudogene                            688
+Number of single exon rna                                   688
+mean rnas per pseudogene                                    1.0
+mean exons per rna                                          4.7
+mean introns in exons per rna                               3.7
+Total pseudogene length (bp)                                16602232
+Total rna length (bp)                                       16602232
+Total exon length (bp)                                      6511928
+Total intron length per exon (bp)                           10090304
+mean pseudogene length (bp)                                 3766
+mean rna length (bp)                                        3766
+mean exon length (bp)                                       311
+mean intron in exon length (bp)                             611
+median pseudogene length (bp)                               2135
+median rna length (bp)                                      2135
+median exon length (bp)                                     168
+median intron in exon length (bp)                           101
+90 percentile pseudogene length (bp)                        7774
+90 percentile rna length (bp)                               7774
+90 percentile exon length (bp)                              753
+90 percentile intron in exon length (bp)                    922
+% of genome covered by pseudogene                           3.5
+% of genome covered by rna                                  3.5
+% of genome covered by exon                                 1.4
+% of genome covered by intron from exon                     2.1
+Longest pseudogene (bp)                                     109078
+Longest rna (bp)                                            109078
+Longest exon (bp)                                           7113
+Longest intron into exon part (bp)                          76348
+Shortest pseudogene (bp)                                    146
+Shortest rna (bp)                                           146
+Shortest intron into exon part (bp)                         30
+
+---------------------------------- transcript ----------------------------------
+Number of gene                                              896
+Number of pseudogene                                        25
+Number of transcript                                        921
+Number of exon                                              6545
+Number of intron in exon                                    5624
+Number pseudogene..gene overlapping                         0
+Number of single exon pseudogene                            2
+Number of single exon transcript                            2
+mean transcripts per gene                                   1.0
+mean transcripts per pseudogene                             36.8
+mean exons per transcript                                   7.1
+mean introns in exons per transcript                        6.1
+Total gene length (bp)                                      3268608
+Total pseudogene length (bp)                                87347
+Total transcript length (bp)                                2949446
+Total exon length (bp)                                      1555091
+Total intron length per exon (bp)                           1394355
+mean gene length (bp)                                       3648
+mean pseudogene length (bp)                                 3494
+mean transcript length (bp)                                 3202
+mean exon length (bp)                                       238
+mean intron in exon length (bp)                             248
+median gene length (bp)                                     2627
+median pseudogene length (bp)                               2612
+median transcript length (bp)                               2436
+median exon length (bp)                                     141
+median intron in exon length (bp)                           99
+90 percentile gene length (bp)                              6868
+90 percentile pseudogene length (bp)                        6432
+90 percentile transcript length (bp)                        6025
+90 percentile exon length (bp)                              492
+90 percentile intron in exon length (bp)                    364
+% of genome covered by gene                                 0.7
+% of genome covered by pseudogene                           0.0
+% of genome covered by transcript                           0.6
+% of genome covered by exon                                 0.3
+% of genome covered by intron from exon                     0.3
+Longest gene (bp)                                           36702
+Longest pseudogene (bp)                                     13057
+Longest transcript (bp)                                     30627
+Longest exon (bp)                                           3602
+Longest intron into exon part (bp)                          15946
+Shortest gene (bp)                                          578
+Shortest pseudogene (bp)                                    885
+Shortest transcript (bp)                                    301
+Shortest intron into exon part (bp)                         30
+
+------------------------------------- trna -------------------------------------
+Number of gene                                              967
+Number of trna                                              967
+Number of exon                                              1026
+Number of intron in exon                                    59
+Number gene overlapping                                     0
+Number of single exon gene                                  908
+Number of single exon trna                                  908
+mean trnas per gene                                         1.0
+mean exons per trna                                         1.1
+mean introns in exons per trna                              0.1
+Total gene length (bp)                                      72381
+Total trna length (bp)                                      72381
+Total exon length (bp)                                      71681
+Total intron length per exon (bp)                           700
+mean gene length (bp)                                       75
+mean trna length (bp)                                       75
+mean exon length (bp)                                       70
+mean intron in exon length (bp)                             12
+median gene length (bp)                                     73
+median trna length (bp)                                     73
+median exon length (bp)                                     73
+median intron in exon length (bp)                           12
+90 percentile gene length (bp)                              82
+90 percentile trna length (bp)                              82
+90 percentile exon length (bp)                              81
+90 percentile intron in exon length (bp)                    13
+% of genome covered by gene                                 0.0
+% of genome covered by trna                                 0.0
+% of genome covered by exon                                 0.0
+% of genome covered by intron from exon                     0.0
+Longest gene (bp)                                           90
+Longest trna (bp)                                           90
+Longest exon (bp)                                           87
+Longest intron into exon part (bp)                          17
+Shortest gene (bp)                                          70
+Shortest trna (bp)                                          70
+Shortest intron into exon part (bp)                         11
+

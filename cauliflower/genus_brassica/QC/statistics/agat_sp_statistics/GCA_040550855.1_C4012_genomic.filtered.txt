@@ -1,0 +1,68 @@
+--------------------------------------------------------------------------------
+
+------------------------------------ region ------------------------------------
+Number of region                             390
+Number region overlapping                    0
+Total region length (bp)                     1069770143
+mean region length (bp)                      2743000
+% of genome covered by region                99.7
+Longest region (bp)                          75391900
+Shortest region (bp)                         10218
+
+------------------------------------- mrna -------------------------------------
+Number of gene                               103715
+Number of pseudogene                         16
+Number of mrna                               103731
+Number of cds                                103731
+Number of exon                               474211
+Number of exon in cds                        474211
+Number of intron in cds                      370480
+Number of intron in exon                     370480
+Number pseudogene..gene overlapping          0
+Number of single exon gene                   23710
+Number of single exon pseudogene             2
+Number of single exon mrna                   23712
+mean mrnas per gene                          1.0
+mean mrnas per pseudogene                    6483.2
+mean cdss per mrna                           1.0
+mean exons per mrna                          4.6
+mean exons per cds                           4.6
+mean introns in cdss per mrna                3.6
+mean introns in exons per mrna               3.6
+Total gene length (bp)                       232395023
+Total pseudogene length (bp)                 42553
+Total mrna length (bp)                       232437576
+Total cds length (bp)                        107318556
+Total exon length (bp)                       107318556
+Total intron length per cds (bp)             125119020
+Total intron length per exon (bp)            125119020
+mean gene length (bp)                        2240
+mean pseudogene length (bp)                  2659
+mean mrna length (bp)                        2240
+mean cds length (bp)                         1034
+mean exon length (bp)                        226
+mean cds piece length (bp)                   226
+mean intron in cds length (bp)               337
+mean intron in exon length (bp)              337
+% of genome covered by gene                  21.7
+% of genome covered by pseudogene            0.0
+% of genome covered by mrna                  21.7
+% of genome covered by cds                   10.0
+% of genome covered by exon                  10.0
+% of genome covered by intron from cds       11.7
+% of genome covered by intron from exon      11.7
+Longest gene (bp)                            1102137
+Longest pseudogene (bp)                      7956
+Longest mrna (bp)                            1102137
+Longest cds (bp)                             16116
+Longest exon (bp)                            11168
+Longest cds piece (bp)                       11168
+Longest intron into cds part (bp)            197145
+Longest intron into exon part (bp)           197145
+Shortest gene (bp)                           150
+Shortest pseudogene (bp)                     459
+Shortest mrna (bp)                           150
+Shortest cds piece (bp)                      1
+Shortest intron into cds part (bp)           1
+Shortest intron into exon part (bp)          1
+

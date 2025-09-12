@@ -1,0 +1,4 @@
+/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/genomes_filtered/GWHBKKZ00000000.filtered.fna
+/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/genomes_filtered/GWHDTYM00000000.filtered.fna
+/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/genomes_filtered/GWHDUBS00000000.genome.filtered.fna
+/lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/genomes/T22_wrapped.fna

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Araport11_prot_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/perso009/lustre/cauliflower/T22species_oleracea15/pangenome/proteins_Araport11.fasta",
+  "number-of-letters": 11136118,
+  "number-of-sequences": 27142,
+  "last-updated": "2025-09-08T23:52:00",
+  "number-of-volumes": 1,
+  "bytes-total": 14864379,
+  "bytes-to-cache": 11380581,
+  "files": [
+    "Araport11_prot_db.pdb",
+    "Araport11_prot_db.phr",
+    "Araport11_prot_db.pin",
+    "Araport11_prot_db.pot",
+    "Araport11_prot_db.psq",
+    "Araport11_prot_db.ptf",
+    "Araport11_prot_db.pto"
+  ]
+}
