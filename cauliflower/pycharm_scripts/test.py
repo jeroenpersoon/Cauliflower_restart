@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-
+"""
+Author: Jeroen Persoon
+Description:
+"""
 def test():
-    name = 'another test2'
-    print(name)
+    name = []
+
+    if name:
+        print('im here')
+
+    print(bool(name))
 
 def main():
     test()
