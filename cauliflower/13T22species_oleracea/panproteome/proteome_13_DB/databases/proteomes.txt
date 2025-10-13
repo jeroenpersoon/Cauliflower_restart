@@ -1,0 +1,16 @@
+Total genomes: 0
+
+Genome number, path to proteins
+1, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GCF_000695525.1_BOL_genomic.filtered.pep.faa
+2, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTWX00000000.filtered.pep.faa
+3, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTYA00000000.filtered.pep.faa
+4, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTYE00000000.filtered.pep.faa
+5, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTYJ00000000.filtered.pep.faa
+6, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTYK00000000.filtered.pep.faa
+7, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDTYL00000000.filtered.pep.faa
+8, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDUBH00000000.filtered.pep.faa
+9, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDUBI00000000.filtered.pep.faa
+10, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDUBL00000000.filtered.pep.faa
+11, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDUBP00000000.filtered.pep.faa
+12, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/GWHDUBS00000000.filtered.pep.faa
+13, /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/13T22species_oleracea/QC/proteins/T22.chr.filtered.pep.faa

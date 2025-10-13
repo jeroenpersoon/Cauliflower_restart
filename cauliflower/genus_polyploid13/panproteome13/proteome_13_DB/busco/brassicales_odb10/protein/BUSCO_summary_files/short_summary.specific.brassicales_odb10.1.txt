@@ -1,0 +1,19 @@
+# BUSCO version is: 5.8.3 
+# The lineage dataset is: brassicales_odb10 (Creation date: 2024-01-08, number of genomes: 10, number of BUSCOs: 4596)
+# Summarized benchmarking in BUSCO notation for file /lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/panproteome13/proteome_13_DB/proteins/for_busco/proteins_1.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:91.7%[S:76.2%,D:15.5%],F:2.8%,M:5.5%,n:4596	   
+	4214	Complete BUSCOs (C)			   
+	3503	Complete and single-copy BUSCOs (S)	   
+	711	Complete and duplicated BUSCOs (D)	   
+	127	Fragmented BUSCOs (F)			   
+	255	Missing BUSCOs (M)			   
+	4596	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	python: sys.version_info(major=3, minor=10, micro=18, releaselevel='final', serial=0)
+	busco: 5.8.3

@@ -1,0 +1,14 @@
+Genome,Total groups,Core groups,Accessory groups,Unique groups,Total mRNAs,Core mRNAs,% of genome core,Accessory mRNAs,% genome accessory,Unique mRNAs,% of genome unique,Singleton groups (unique groups with only one mRNA),Median gene copies per group,Average gene copies per group,Standard deviation - gene copies per group,Median gene copies per group (longest transcripts),Average gene copies per group (longest transcripts),Standard deviation - Gene copies per group (longest transcripts),Median CDS alleles per group,Average CDS alleles per group,Standard deviation - CDS alleles per group,Median CDS alleles per group (longest transcripts),Average CDS alleles per group (longest transcripts),Standard deviation - CDS alleles per group (longest transcripts),Median protein alleles per group,Average protein alleles per group,Standard deviation - protein alleles per group,Median protein alleles per group (longest transcripts),Average protein alleles per group (longest transcripts),Standard deviation - protein alleles per group (longest transcripts),
+1,39498,21352,13424,4722,43601,23739,54.45,14504,33.27,5358,12.29,4383
+10,48423,21352,23255,3816,52704,23597,44.77,25119,47.66,3988,7.57,3710
+11,49525,21352,23146,5027,54905,24509,44.64,25285,46.05,5111,9.31,4960
+12,47505,21352,22909,3244,51515,23554,45.72,24613,47.78,3348,6.50,3177
+13,46737,21352,22065,3320,51028,23571,46.19,23997,47.03,3460,6.78,3235
+2,48115,21352,23322,3441,52455,23592,44.98,25292,48.22,3571,6.81,3355
+3,48618,21352,23150,4116,52963,23646,44.65,25041,47.28,4276,8.07,4027
+4,48134,21352,22833,3949,52323,23685,45.27,24567,46.95,4071,7.78,3856
+5,46694,21352,22139,3203,51047,23743,46.51,23986,46.99,3318,6.50,3129
+6,46731,21352,22289,3090,50938,23629,46.39,24121,47.35,3188,6.26,3019
+7,48429,21352,22996,4081,52658,23564,44.75,24900,47.29,4194,7.96,4005
+8,48994,21352,23521,4121,53408,23630,44.24,25525,47.79,4253,7.96,4041
+9,48414,21352,23501,3561,52606,23567,44.80,25371,48.23,3668,6.97,3485

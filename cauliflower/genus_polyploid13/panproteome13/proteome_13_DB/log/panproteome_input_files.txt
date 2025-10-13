@@ -1,0 +1,13 @@
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/Bnigra_C2.v1.genes.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/Bnigra_NI100.v2.genes.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCA_038677285.1_ASM3867728v1_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCA_040550855.1_C4012_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCA_040584065.1_ASM4058406v1_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCF_000309985.2_CAAS_Brap_v3.01_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCF_000695525.1_BOL_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GCF_020379485.1_Da-Ae_genomic.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GWHDTYL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GWHERGL00000000.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GWHFIKA00000000.1.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/GWHFQTP00000000.1.filtered.pep.faa
+/lustre/BIF/nobackup/perso009/cauliflower_restart/cauliflower/genus_polyploid13/QC/proteins/T22.chr.filtered.pep.faa
