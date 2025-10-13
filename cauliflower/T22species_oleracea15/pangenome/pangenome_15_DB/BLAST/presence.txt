@@ -1,7 +1,14 @@
-#Sequence 1, >BroT24.C03g04420.1
-Gene names: -(76x), LOC106318712(1x), LOC106318713(1x), LOC106334698(1x)
-Present in genomes 1(3x), 2(5x), 3(6x), 4(3x), 5(7x), 6(6x), 7(5x), 8(3x), 9(6x), 10(6x), 11(6x), 12(6x), 13(7x), 14(5x), 15(5x)
-Number of different copies found: 3, 5, 6, 7
+#Sequence 1, >NP_567517.1 VRN2 [organism=Arabidopsis thaliana] [GeneID=827392]
+Gene names: -(82x), LOC106300754(1x), LOC106307699(1x), LOC106320093(1x), LOC106321256(1x), LOC106340522(1x)
+Present in genomes 1(5x), 2(6x), 3(6x), 4(6x), 5(6x), 6(6x), 7(6x), 8(6x), 9(6x), 10(6x), 11(6x), 12(6x), 13(6x), 14(6x), 15(4x)
+Number of different copies found: 4, 5, 6
+Missing in genomes []
+Genes are part of 1 homology groups: 0]
+
+#Sequence 2, >NP_974563.1 VRN2 [organism=Arabidopsis thaliana] [GeneID=827392]
+Gene names: -(82x), LOC106300754(1x), LOC106307699(1x), LOC106320093(1x), LOC106321256(1x), LOC106340522(1x)
+Present in genomes 1(5x), 2(6x), 3(6x), 4(6x), 5(6x), 6(6x), 7(6x), 8(6x), 9(6x), 10(6x), 11(6x), 12(6x), 13(6x), 14(6x), 15(4x)
+Number of different copies found: 4, 5, 6
 Missing in genomes []
 Genes are part of 1 homology groups: 0]
 

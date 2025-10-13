@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "cauliflower_prot_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/proteins/proteins_15.fasta",
+  "number-of-letters": 17741396,
+  "number-of-sequences": 51028,
+  "last-updated": "2025-10-10T18:04:00",
+  "number-of-volumes": 1,
+  "bytes-total": 23256625,
+  "bytes-to-cache": 18200873,
+  "files": [
+    "cauliflower_prot_db.pdb",
+    "cauliflower_prot_db.phr",
+    "cauliflower_prot_db.pin",
+    "cauliflower_prot_db.pot",
+    "cauliflower_prot_db.psq",
+    "cauliflower_prot_db.ptf",
+    "cauliflower_prot_db.pto"
+  ]
+}
