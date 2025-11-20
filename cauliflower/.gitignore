@@ -60,3 +60,6 @@ cauliflower4/pangenome/pangenome_4_DB/databases/*
 
 # Folder with old pangenomes not used (yet)
 old/*
+
+# Database file for BLAST
+*db.*
