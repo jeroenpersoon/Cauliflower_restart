@@ -7,8 +7,9 @@ Description:
 import pandas as pd
 from subprocess import run
 from sys import argv
+from pathlib import Path
 
-def do_pangenome_blast(pangenome_path, query):
+def do_pangenome_blast(pangenome_path, query, minimum_id, alignment_length):
     """
     Does a first pangenomic blast with a GOI, for example an Arabidopsis gene
 
@@ -16,13 +17,16 @@ def do_pangenome_blast(pangenome_path, query):
     :param query: file containing the GOI in fasta format
     :return: the gen name of one of the genomes in the pangenome which was on
     top of the blast results table
+    list of all the gene ids which passed the blast using the input query
+    panda dataframe of the blast results containing only the gene ids that
+    passed the blast.
     """
 
     # runs the blast using pantools
-    # cmd = ["pantools", "blast", pangenome_path, query]
-    # run(cmd, check=True)
+    cmd = ["pantools", "blast", pangenome_path, query, "--mode", "BLASTP", "--minimum-identity", minimum_id, "--alignment-threshold", alignment_length]
+    run(cmd, check=True)
 
-    blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/BLAST/blast_results.tsv"
+    blast_results = pangenome_path / "BLAST/blast_results.tsv"
 
     # get the columns to make a pd.df of the blast results
     with open(blast_results) as f:
@@ -39,19 +43,17 @@ def do_pangenome_blast(pangenome_path, query):
 
     # copies the results to other location so the blast_results.tsv can be
     # overwritten
-    # cp_cmd = ["cp", blast_results, "blast_results_AT.tsv"]
-    # run(cp_cmd, check=True)
+    cp_cmd = ["cp", blast_results, "first_pangenome_blast_results.tsv"]
+    run(cp_cmd, check=True)
 
     # takes the best id to blast back to the pangenome
     blast_ID = df_filtered["subject"].iloc()[0]
 
     # saves all the blasted ids in a list to check whether the blast_back with
     # the best pangenomic hit would result in more hits.
-    # blast_IDs = df_filtered["subject"].values.tolist()
-    # blast_IDs = list(set(blast_IDs))
-    # print(len(blast_IDs))
+    blast_ids = df_filtered["subject"].drop_duplicates().values.tolist()
 
-    return blast_ID
+    return blast_ID, blast_ids, df_filtered
 
 
 def search_protein(fasta_file, protein):
@@ -94,36 +96,49 @@ def search_protein(fasta_file, protein):
         return None, None
 
 
-def extend_blast_list(best_ID, pangenome_path):
+def extend_blast_list(best_ID, pangenome_path, minimum_id, alignment_length):
     """
     Does another blast to the pangenome to extend the blast hits
 
     :param best_ID: best hit when blasting a known GOI
     :param pangenome_path: Path to the pangenome_DB
     :return: list of gen-ids which passed the blast.
+    pandas dataframe containing the blast results of the gene ids that passed
+    the blast
     """
 
-    #TODO: change the input to a single query in a file already gen-ids are useless in another case
+    #TODO: might want to return something else. Gen ids as they are now works only for a blastp to the pangenome.
+    # When doing a blastn to a pangenome the 'subject' column in the blast result change names and the .split('_genome_') does work
 
-    # ID, genome_num = best_ID.split('_genome_')
-    #
+    ID, genome_num = best_ID.split('_genome_')
+
     # protein_files_path = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/proteins"
-    #
-    # protein_file = f"{protein_files_path}/proteins_{genome_num}.fasta"
-    # header, seq = search_protein(protein_file, ID)
-    #
-    # query_file = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/best_blast_query.fasta"
-    #
-    # with open(query_file, 'w') as seqfile:
-    #     seqfile.write(f"{header}\n{seq}")
-    #
-    # cmd = ["pantools", "blast", pangenome_path, query_file]
-    # run(cmd, check=True)
-    #
-    # blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/BLAST/blast_results.tsv"
+    protein_files_path = pangenome_path / "proteins"
 
-    blast_results = argv[1]
-    #blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/blast_results_AT.tsv"
+    protein_file = f"{protein_files_path}/proteins_{genome_num}.fasta"
+    header, seq = search_protein(protein_file, ID)
+
+    # query_file = f"/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/{best_ID}_protein.faa"
+    query_file = pangenome_path.parent / f"{best_ID}_protein.faa"
+
+    with open(query_file, 'w') as seqfile:
+        seqfile.write(f"{header}\n{seq}")
+
+    cmd = ["pantools", "blast", pangenome_path, query_file, "--mode", "BLASTP", "--minimum-identity", minimum_id, "--alignment-threshold", alignment_length]
+    run(cmd, check=True)
+
+    # blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/BLAST/blast_results.tsv"
+    blast_results = pangenome_path / "BLAST/blast_results.tsv"
+
+    # copies the results to other location so the blast_results.tsv can be
+    # overwritten
+    cp_cmd = ["cp", blast_results, "second_pangenome_blast_results.tsv"]
+    run(cp_cmd, check=True)
+
+    # used to skip blast, so I could run it in the command line
+    # blast_results = argv[1]
+    # blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/blast_results/BroT13.C08g39640.1_ELF3_blastp_results.tsv"
+    # blast_results = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/blast_results/BroT24.C03g04420.1_blastp_results.tsv"
 
     # makes a pd.df from the blast results just like earlier.
     with open(blast_results, 'r') as f:
@@ -136,17 +151,15 @@ def extend_blast_list(best_ID, pangenome_path):
                      names=columns)
 
     # makes a list from all the gen-ids which pass the blast
-    # TODO need to return something else
     df_filtered = df[(df["PASS minimum identity"] == "PASS") & (
                 df["PASS minimum alignment length"] == "PASS")]
 
-    blast_IDs = df_filtered["subject"].values.tolist()
-    blast_IDs = list(set(blast_IDs))
+    blast_ids = df_filtered["subject"].drop_duplicates().tolist()
 
-    return blast_IDs, df_filtered
+    return blast_ids, df_filtered
 
 
-def check_hom_groups(grouping_file, best_IDs):
+def check_hom_groups(pangenome_path, grouping_file, best_IDs):
     """
     Makes a file with gen-ids from all the blast ids and searches their homology
     group numbers
@@ -161,7 +174,8 @@ def check_hom_groups(grouping_file, best_IDs):
 
     # makes search_terms.txt and puts all the blasted ids in it (without genome
     # number) to search the homology groups
-    search_terms = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/search_terms.txt"
+    # search_terms = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/search_terms.txt"
+    search_terms = pangenome_path.parent / "search_terms.txt"
     with open(search_terms, 'w') as term_file:
         for item in best_IDs:
             id = item.split('_genome_')[0]
@@ -218,7 +232,7 @@ def contamination(group_numbers, group_num_per_id, grouping_file):
     return ids_in_groups
 
 
-def writer(id_genome_num, id_group_num_dic, df_filtered):
+def writer(id_genome_num, id_group_num_dic, df_filtered, blasted=False):
     """
     makes a dic with gen-id as key and a list of homology group and
     genome number as values
@@ -237,14 +251,15 @@ def writer(id_genome_num, id_group_num_dic, df_filtered):
     # corresponding group number
     for i, key in enumerate(id_group_num_dic.keys()):
         value = [id_group_num_dic[key], id_genome_num[i].split('_genome_')[1]]
-        value.append(start_pos[i])
-        value.append(end_pos[i])
+        if blasted:
+            value.append(start_pos[i])
+            value.append(end_pos[i])
         id_group_num_dic[key] = value
 
     return id_group_num_dic
 
 
-def best_hit(blast_ids, arabidopsis_path, cauliflower_path, ara_hits, cau_hits):
+def best_hit(pangenome_path, blast_ids, arabidopsis_path, cauliflower_path, ara_hits, cau_hits):
     """
     Makes a query file of the blasted gen-ids and does the blast on arabidopsis
     and cauliflower
@@ -254,8 +269,10 @@ def best_hit(blast_ids, arabidopsis_path, cauliflower_path, ara_hits, cau_hits):
     :param cauliflower_path: path to cauliflower genome fasta file
     :return:
     """
-    queries = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/queries.fasta"
-    protein_files = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/proteins"
+    # queries = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/queries.fasta"
+    # protein_files = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/proteins"
+    queries = pangenome_path.parent / "queries.fasta"
+    protein_files = pangenome_path / "proteins"
 
     # for every gen-id+genome# finds the protein file and finds the fasta
     # header and sequence. Writes these fasta headers and sequences to a file
@@ -323,26 +340,42 @@ def get_description(gene):
 
     :param gene: gene id of interest
     :return: full_name of the gene from the gff file
-    Note: gff description needs to be complete.
     """
+
     gff_file = "/home/perso009/lustre/cauliflower_restart/cauliflower/brassica_oleracea16/QC/annotations_filtered/Araport11_GFF3_genes_transposons.current.filtered.gff"
 
-    # cmd = ["grep", gene, gff_file, "|", "grep", "gene"]
-    cmd = f"grep {gene} {gff_file} | grep gene"
+    cmd = f"grep {gene} {gff_file}"
     result = run(cmd, capture_output=True, text=True, shell=True, check=True)
-    description = result.stdout.split('\t')[-1]
+    gff_lines = result.stdout.split('\n')
 
-    # return the full name if that is in the gff file otherwise tries to return
-    # the symbol otherwise returns None
-    try:
-        return description.split('full_name=')[1].split(';')[0]
-    except IndexError:
-        try:
-            return description.split('symbol=')[1]
-        except IndexError:
-            return "None"
+    for line in gff_lines:
+        if line.split('\t')[2] == 'gene':
+            description = line.split('\t')[-1]
 
-def output_writer(table_dic, output_file, best_ara_hits, best_cau_hits):
+            # return the full name if that is in the gff file otherwise tries to
+            # return the symbol otherwise returns None
+            try:
+                return description.split('full_name=')[1].split(';')[0]
+            except IndexError:
+                try:
+                    return description.split('symbol=')[1]
+                except IndexError:
+                    try:
+                        rna_description = result.stdout.split('\n')[1]
+                        rna_description = rna_description.split('\t')[-1]
+                        return rna_description.split('Note=')[1].split(';')[0]
+                    except IndexError:
+                        try:
+                            rna_description = result.stdout.split('\n')[1]
+                            rna_description = rna_description.split('\t')[
+                                -1]
+                            return \
+                            rna_description.split('computational_description=')[
+                                1].split(';')[0]
+                        except IndexError:
+                            return 'None'
+
+def output_writer(table_dic, output_file, best_ara_hits, best_cau_hits, first_blastids, second_blastids, blasted=False):
     """
     writes all the information about the blasted genes to an output file
 
@@ -366,14 +399,16 @@ def output_writer(table_dic, output_file, best_ara_hits, best_cau_hits):
     for key in table_dic.keys():
         group_numbers.append(table_dic[key][0])
         genomes.append(table_dic[key][1])
-        start_pos.append(table_dic[key][2])
-        end_pos.append(table_dic[key][3])
+        if blasted:
+            start_pos.append(table_dic[key][2])
+            end_pos.append(table_dic[key][3])
 
     # extents the dic with the lists of hom group numbers and genome numbers
     data['Homology_group'] = group_numbers
     data['Genome_numbers'] = genomes
-    data['start coordinate'] = start_pos
-    data['end coordinate'] = end_pos
+    if blasted:
+        data['start coordinate'] = start_pos
+        data['end coordinate'] = end_pos
 
     # makes a pd.df from the dic
     df = pd.DataFrame(data)
@@ -398,83 +433,189 @@ def output_writer(table_dic, output_file, best_ara_hits, best_cau_hits):
     df["Best cauliflower hit"] = cau_hits
     df["% identity cauliflower hit"] = cau_percentages
 
+    found_query = []
+    found_best_hit = []
+    split_first_ids = [item.split('_genome_')[0] for item in first_blastids]
+    split_second_ids = [item.split('_genome_')[0] for item in second_blastids]
+
+    for key in table_dic.keys():
+        if key in split_first_ids:
+            found_query.append('YES')
+        else:
+            found_query.append('NO')
+
+        if key in split_second_ids:
+            found_best_hit.append('YES')
+        else:
+            found_best_hit.append('NO')
+
+    df["Gene found blasting the initial query to the pangenome?"] = found_query
+    df["Gene found blasting the Brassica best hit to the pangenome"] = found_best_hit
+
+    species = add_species(table_dic.keys())
+    df["Species"] = species
+
     df.to_csv(output_file, sep='\t', index=False)
 
 
 def change_notblasted(not_blasted):
     not_blasted_id_genomes = []
     for item in not_blasted:
-        if "rna" in item:
+        # if "rna" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_1')
+        #     continue
+        # elif "bro" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_2')
+        #     continue
+        # elif "T02" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_3')
+        #     continue
+        # elif "T07" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_4')
+        #     continue
+        # elif "T13" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_5')
+        #     continue
+        # elif "T06" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_6')
+        #     continue
+        # elif "T24" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_7')
+        #     continue
+        # elif "T19" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_8')
+        #     continue
+        # elif "T12" in item:
+        #     not_blasted_id_genomes.append(item + '_genome_9')
+        #     continue
+        # elif "T10" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_10')
+        #     continue
+        # elif "T08" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_11')
+        #     continue
+        # elif "T17" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_12')
+        #     continue
+        # elif "T21" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_13')
+        #     continue
+        # elif "BolO_" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_14')
+        #     continue
+        # elif "T22" in item:
+        #     not_blasted_id_genomes.append(item+'_genome_15')
+        #     continue
+
+        # genomes numbers for my cauliflower pangenome
+        if "caul" in item:
             not_blasted_id_genomes.append(item+'_genome_1')
             continue
-        elif "bro" in item:
+        elif "T25" in item:
             not_blasted_id_genomes.append(item+'_genome_2')
             continue
-        elif "T02" in item:
-            not_blasted_id_genomes.append(item+'_genome_3')
-            continue
-        elif "T07" in item:
-            not_blasted_id_genomes.append(item+'_genome_4')
-            continue
-        elif "T13" in item:
-            not_blasted_id_genomes.append(item+'_genome_5')
-            continue
-        elif "T06" in item:
-            not_blasted_id_genomes.append(item+'_genome_6')
-            continue
-        elif "T24" in item:
-            not_blasted_id_genomes.append(item+'_genome_7')
-            continue
-        elif "T19" in item:
-            not_blasted_id_genomes.append(item+'_genome_8')
-            continue
-        elif "T12" in item:
-            not_blasted_id_genomes.append(item + '_genome_9')
-            continue
-        elif "T10" in item:
-            not_blasted_id_genomes.append(item+'_genome_10')
-            continue
-        elif "T08" in item:
-            not_blasted_id_genomes.append(item+'_genome_11')
-            continue
-        elif "T17" in item:
-            not_blasted_id_genomes.append(item+'_genome_12')
-            continue
         elif "T21" in item:
-            not_blasted_id_genomes.append(item+'_genome_13')
-            continue
-        elif "BolO_" in item:
-            not_blasted_id_genomes.append(item+'_genome_14')
+            not_blasted_id_genomes.append(item + '_genome_3')
             continue
         elif "T22" in item:
-            not_blasted_id_genomes.append(item+'_genome_15')
+            not_blasted_id_genomes.append(item + '_genome_4')
             continue
+
     return not_blasted_id_genomes
 
 
-def main():
-    pangenome_location = "pangenome_15_DB"
-    protein_query = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/AT5G10140_FLC_protein.faa"
+def add_species(ids):
+    species = []
+    for item in ids:
+        if "rna" in item:
+            species.append('wild cabbage')
+            continue
+        elif "bro" in item:
+            species.append('broccoli')
+            continue
+        elif "T02" in item:
+            species.append('flat cabbage')
+            continue
+        elif "T07" in item:
+            species.append('kohlrabi')
+            continue
+        elif "T13" in item:
+            species.append('tree kale')
+            continue
+        elif "T06" in item:
+            species.append('round cabbage')
+            continue
+        elif "T24" in item:
+            species.append('broccoli')
+            continue
+        elif "T19" in item:
+            species.append('chinese kale')
+            continue
+        elif "T12" in item:
+            species.append('lacinato kale')
+            continue
+        elif "T10" in item:
+            species.append('wild cabbage')
+            continue
+        elif "T08" in item:
+            species.append('brussels sprouts')
+            continue
+        elif "T17" in item:
+            species.append('collard greens')
+            continue
+        elif "T21" in item:
+            species.append('cauliflower')
+            continue
+        elif "BolO_" in item:
+            species.append('wild cabbage')
+            continue
+        elif "T22" in item:
+            species.append('cauliflower')
+            continue
 
-    # blast_ID = do_pangenome_blast(pangenome_location, protein_query)
-    blast_ID = ""
+        # cauliflower accessions when making variation tables for cauliflower.
+        elif "caul" in item:
+            species.append('cauliflower')
+            continue
+        elif "T25" in item:
+            species.append('cauliflower')
+            continue
+
+    return species
+
+def main():
+    pangenome_location = Path(argv[1]).resolve()
+    print(pangenome_location)
+    protein_query = argv[2]
+    seq_id = argv[3]
+    align_len = argv[4]
+
+    blast_ID, first_blast_ids, df_filtered_first_blast = do_pangenome_blast(pangenome_location, protein_query, seq_id, align_len)
 
     # gets all the gen-ids+genome# which passed the blast
-    blast_ids, df_filtered = extend_blast_list(blast_ID, pangenome_location)
+    second_blast_ids, df_filtered_second_blast = extend_blast_list(blast_ID, pangenome_location, seq_id, align_len)
     #queries_RBH = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/queries_forRBHblast.fasta"
+    if len(first_blast_ids) > len(second_blast_ids) or argv[5] == 'yes':
+        print(f'The BLAST output using the initial query was used containing {len(first_blast_ids)} Genes')
+        blast_ids = first_blast_ids
+        df_filtered = df_filtered_first_blast
+    else:
+        print(f'The BLAST output using the best Brassica hit: {blast_ID} was used containing {len(second_blast_ids)} Genes')
+        blast_ids = second_blast_ids
+        df_filtered = df_filtered_second_blast
 
-    hom_groups = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/panproteome/proteome_15_DB/pantools_homology_groups.txt"
+    hom_groups = pangenome_location / "pantools_homology_groups.txt"
 
     # gets a dic with gen-id as key and hom group as value also gets list of
     # all different group numbers from the blasted ids.
-    blast_homgroups_dic, group_nums = check_hom_groups(hom_groups, blast_ids)
+    blast_homgroups_dic, group_nums = check_hom_groups(pangenome_location, hom_groups, blast_ids)
 
     # gets all the gen-id which are in the homology groups but were not blasted
     not_blasted = contamination(group_nums, blast_homgroups_dic, hom_groups)
 
     # make a dic with gen-id as key and list of hom group num and genome num
     # as values
-    id_group_genome_num_dic = writer(blast_ids, blast_homgroups_dic, df_filtered)
+    id_group_genome_num_dic = writer(blast_ids, blast_homgroups_dic, df_filtered, blasted=True)
 
     arabidopsis = "/home/perso009/lustre/cauliflower_restart/cauliflower/brassica_oleracea16/QC/proteins/Araport11_GFF3_genes_transposons.current.filtered.pep.faa"
     cauliflower_T22 = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/pangenome_15_DB/proteins/proteins_15.fasta"
@@ -484,29 +625,46 @@ def main():
     blast_hits_ara = "best_hits_ara.tsv"
     blast_hits_cau = "best_hits_cau.tsv"
 
-    best_hit(blast_ids, arabidopsis, cauliflower_T22, blast_hits_ara, blast_hits_cau)
+    best_hit(pangenome_location, blast_ids, arabidopsis, cauliflower_T22, blast_hits_ara, blast_hits_cau)
 
-    output_path = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/variation_table.tsv"
+    # output_path = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/variation_table.tsv"
+    output_path = pangenome_location.parent.parent / "variation_table.tsv"
 
     # collects all the desired information for every gen-id in a pd.df and
     # writes it to an output file
-    output_writer(id_group_genome_num_dic, output_path, blast_hits_ara, blast_hits_cau)
+    # blast_hits_ara = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/best_hits_ara.tsv"
+    # blast_hits_cau = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/best_hits_cau.tsv"
+    blast_hits_ara = pangenome_location.parent / "best_hits_ara.tsv"
+    blast_hits_cau = pangenome_location.parent / "best_hits_cau.tsv"
+
+
+    output_writer(id_group_genome_num_dic, output_path, blast_hits_ara, blast_hits_cau, first_blast_ids, second_blast_ids, blasted=True)
 
     # same variation_table but then for the not blasted sequences
     not_blasted = change_notblasted(not_blasted)
-    not_blast_homgroups_dic, group_nums = check_hom_groups(hom_groups, not_blasted)
+    if not not_blasted:
+        raise SystemExit("No genes found which are in the homology groups but not blasted. Variation_table_not_blasted.tsv will not be made")
+    not_blast_homgroups_dic, group_nums = check_hom_groups(pangenome_location, hom_groups, not_blasted)
+
 
     not_blasted_id_group_genome_num_dic = writer(not_blasted, not_blast_homgroups_dic, df_filtered)
 
     not_blast_hits_ara = "best_hits_ara_notblasted.tsv"
     not_blast_hits_cau = "best_hits_cau_notblasted.tsv"
 
-    best_hit(not_blasted, arabidopsis, cauliflower_T22, not_blast_hits_ara, not_blast_hits_cau)
+    best_hit(pangenome_location, not_blasted, arabidopsis, cauliflower_T22, not_blast_hits_ara, not_blast_hits_cau)
 
-    output_notblasted_path = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/variation_table_not_blasted.tsv"
+    # output_notblasted_path = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/variation_table_not_blasted.tsv"
+    output_notblasted_path = pangenome_location.parent.parent / "variation_table_not_blasted.tsv"
+
+    # not_blast_hits_ara = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/best_hits_ara_notblasted.tsv"
+    # not_blast_hits_cau = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/pangenome/best_hits_cau_notblasted.tsv"
+    not_blast_hits_ara = pangenome_location.parent / "best_hits_ara_notblasted.tsv"
+    not_blast_hits_cau = pangenome_location.parent / "best_hits_cau_notblasted.tsv"
 
     output_writer(not_blasted_id_group_genome_num_dic, output_notblasted_path, not_blast_hits_ara,
-                  not_blast_hits_cau)
+                  not_blast_hits_cau, first_blast_ids, second_blast_ids)
+
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,4 @@
-Gen-id	Homology_group	Genome_numbers	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit
-BroT22.C04g10710.1	843738	15	AT2G35670.1	42.748	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g10710.1	100.000
-BroT22.C04g11390.1	843823	15	AT2G35670.1	47.857	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g11390.1	100.000
-rna-XM_013780209.1	843823	1	AT2G35670.1	46.818	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g11390.1	98.537
+Gen-id	Homology_group	Genome_numbers	start coordinate	end coordinate	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+BroT22.C04g11390.1	843823	15	23207044.0	23209521.0	AT2G35670.1	47.857	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g11390.1	100.000	NO	NO	cauliflower
+rna-XM_013780209.1	843823	1	21979494.0	21981971.0	AT2G35670.1	46.818	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g11390.1	98.537	NO	NO	wild cabbage
+BroT22.C04g10710.1	843738	15	21976934.0	21979411.0	AT2G35670.1	42.748	FERTILIZATION INDEPENDENT SEED 2	BroT22.C04g10710.1	100.000	NO	NO	cauliflower

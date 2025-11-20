@@ -1,4 +1,4 @@
-Gen-id	Homology_group	Genome_numbers	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit
-BroT12.C04g46930.1	846437	9	AT2G25930.1	65.068	EARLY FLOWERING 3	BroT22.C08g39200.1	49.662
-BroT12.C04g46940.1	846438	9	AT2G25930.1	70.833	EARLY FLOWERING 3	BroT22.C08g39200.1	67.660
-BroT12.C04g46910.1	846438	9	AT2G25930.1	71.391	EARLY FLOWERING 3	BroT22.C08g39200.1	69.921
+Gen-id	Homology_group	Genome_numbers	start coordinate	end coordinate	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+BroT12.C04g46940.1	846438	9	45533866.0	45536556.0	AT2G25930.1	70.833	EARLY FLOWERING 3	BroT22.C08g39200.1	67.660	NO	NO	lacinato kale
+BroT12.C04g46910.1	846438	9	44921231.0	44923936.0	AT2G25930.1	71.391	EARLY FLOWERING 3	BroT22.C08g39200.1	69.921	NO	NO	lacinato kale
+BroT12.C04g46930.1	846437	9	44553971.0	44556680.0	AT2G25930.1	65.068	EARLY FLOWERING 3	BroT22.C08g39200.1	49.662	NO	NO	lacinato kale
