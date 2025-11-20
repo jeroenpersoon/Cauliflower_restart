@@ -1,0 +1,1 @@
+4 /lustre/BIF/nobackup/perso009/reseq/mapping/10000_liria_T22.vcf.gz

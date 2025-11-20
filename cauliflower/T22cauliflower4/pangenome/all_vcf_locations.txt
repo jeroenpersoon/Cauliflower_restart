@@ -1,0 +1,3 @@
+4 /lustre/BIF/nobackup/perso009/reseq/mapping/caniego_F1_sorted.vcf.gz
+4 /lustre/BIF/nobackup/perso009/reseq/mapping/TKI-0143_sorted.vcf.gz
+4 /lustre/BIF/nobackup/perso009/reseq/mapping/TKI-0155_sorted.vcf.gz

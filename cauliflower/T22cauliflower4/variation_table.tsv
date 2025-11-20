@@ -1,0 +1,23 @@
+Gen-id	Homology_group	Genome_numbers	start coordinate	end coordinate	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+BroT22.C04g45760.1	34818211	4	56864402.0	56867125.0	AT1G65630.1	66.016	degradation of periplasmic proteins 3	BroT22.C04g45760.1	100.000	YES	YES	cauliflower
+BroT21.C04g40890.1	34818211	3	49843418.0	49846141.0	AT1G65630.1	66.016	degradation of periplasmic proteins 3	BroT22.C04g45760.1	100.000	YES	YES	cauliflower
+BroT25.C04g43900.1	34818211	2	53147605.0	53160376.0	AT1G65630.1	66.016	degradation of periplasmic proteins 3	BroT22.C04g45760.1	100.000	YES	YES	cauliflower
+caul4G04776.1	34818211	1	53271422.0	53274145.0	AT1G65630.1	66.016	degradation of periplasmic proteins 3	BroT22.C04g45760.1	100.000	YES	YES	cauliflower
+BroT22.C04g36020.1	34817345	4	46850389.0	46852949.0	AT5G36950.1	80.711	degradation of periplasmic proteins 10	BroT22.C04g36020.1	100.000	YES	YES	cauliflower
+BroT21.C04g31580.1	34817345	3	39879374.0	39881934.0	AT5G36950.1	80.711	degradation of periplasmic proteins 10	BroT22.C04g36020.1	100.000	YES	YES	cauliflower
+BroT25.C04g34360.1	34817345	2	43292694.0	43295254.0	AT5G36950.1	80.711	degradation of periplasmic proteins 10	BroT22.C04g36020.1	100.000	YES	YES	cauliflower
+caul4G03927.1	34817345	1	43307278.0	43309838.0	AT5G36950.1	80.711	degradation of periplasmic proteins 10	BroT22.C04g36020.1	100.000	YES	YES	cauliflower
+BroT22.C04g41180.1	34817539	4	52167151.0	52169821.0	AT5G40200.1	87.331	degradation of periplasmic proteins 9	BroT22.C04g41180.1	100.000	YES	YES	cauliflower
+BroT22.C04g38510.1	34817538	4	49415386.0	49417964.0	AT5G40200.1	90.709	degradation of periplasmic proteins 9	BroT22.C04g38510.1	100.000	YES	YES	cauliflower
+BroT21.C04g33930.1	34817538	3	42392614.0	42395192.0	AT5G40200.1	90.709	degradation of periplasmic proteins 9	BroT22.C04g38510.1	100.000	YES	YES	cauliflower
+BroT25.C04g36880.1	34817538	2	45800167.0	45802745.0	AT5G40200.1	90.709	degradation of periplasmic proteins 9	BroT22.C04g38510.1	100.000	YES	YES	cauliflower
+caul4G04097.1	34817538	1	45820618.0	45823196.0	AT5G40200.1	90.709	degradation of periplasmic proteins 9	BroT22.C04g38510.1	100.000	YES	YES	cauliflower
+BroT21.C04g36360.1	34817539	3	45157604.0	45160191.0	AT5G40200.1	87.211	degradation of periplasmic proteins 9	BroT22.C04g41180.1	98.921	YES	YES	cauliflower
+BroT25.C04g39310.1	34817539	2	48472800.0	48475387.0	AT5G40200.1	87.211	degradation of periplasmic proteins 9	BroT22.C04g41180.1	98.921	YES	YES	cauliflower
+caul4G04276.1	34817539	1	48585608.0	48588195.0	AT5G40200.1	87.211	degradation of periplasmic proteins 9	BroT22.C04g41180.1	98.921	YES	YES	cauliflower
+BroT21.C02g54330.1	34845705	3	60124101.0	60127481.0	AT2G47940.1	87.745	degradation of periplasmic proteins 2	BroT22.S01g04000.1	98.472	YES	YES	cauliflower
+BroT22.S01g04000.1	34845705	4	3011546.0	3014918.0	AT2G47940.1	86.971	degradation of periplasmic proteins 2	BroT22.S01g04000.1	100.000	YES	YES	cauliflower
+BroT25.C04g58360.1	34845705	2	64716872.0	64720244.0	AT2G47940.1	86.971	degradation of periplasmic proteins 2	BroT22.S01g04000.1	100.000	YES	YES	cauliflower
+BroT21.C06g31820.1	34854477	3	37224715.0	37227202.0	AT5G36950.1	44.979	degradation of periplasmic proteins 10	BroT22.C04g36020.1	44.144	YES	YES	cauliflower
+BroT21.C01g40490.1	34850886	3	47635986.0	47640058.0	AT3G16550.1	49.891	degradation of periplasmic proteins 12	BroT22.C04g36020.1	43.923	YES	YES	cauliflower
+caul1G04374.1	34794186	1	43343737.0	43353064.0	AT3G16550.1	49.891	degradation of periplasmic proteins 12	BroT22.C04g36020.1	43.923	YES	YES	cauliflower

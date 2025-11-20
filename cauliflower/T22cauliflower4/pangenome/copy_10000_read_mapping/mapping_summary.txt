@@ -1,0 +1,6 @@
+Genome	Total	Unique	Unmapped
+1	3703	70	39
+2	5574	935	54
+3	3747	82	47
+4	5461	808	65
+Unmapped reads:			1310

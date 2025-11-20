@@ -1,0 +1,1 @@
+4 /lustre/BIF/nobackup/perso009/reseq/mapping/liria_f1_freebayes.vcf.gz

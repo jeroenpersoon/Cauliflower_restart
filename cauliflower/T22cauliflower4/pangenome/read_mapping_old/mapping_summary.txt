@@ -1,0 +1,5 @@
+Genome	Total	Unique	Unmapped
+1	184	152	16
+2	183	141	17
+3	184	148	16
+4	182	145	18
