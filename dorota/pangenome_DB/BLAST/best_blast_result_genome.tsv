@@ -1,0 +1,9 @@
+#BLASTP
+#Strictness for accepting hits was >= 25% sequence identity with >= 65% alignment length of input sequence length
+#highest in genome	#query	subject	identity	length	mismatches	gaps	alignment start query	alignment end query	alignment start subject	alignment end subject	evalue	bitscore	PASS minimum identity	PASS minimum alignment length	genome	sequence (number)	original sequence name	start coordinate	end coordinate	mRNA length (bp)	protein length (aa)	mRNA identifier	mRNA name	mRNA node identifier	homology group node identifier	gene identifier	gene name	gene node identifier
+##sequence 1,>BroT22.C08g39200.1, 584 length
+1	BroT22.C08g39200.1	caul8G04351.1_genome_1	100.000	584	0	0	1	584	1	584	0.0	1212	PASS	PASS	1	8	GWHBKKZ00000008	42004422	42007125	2704	584	caul8G04351.1	-	32845974	35196463	caul8G04351	-	32845973
+2	BroT22.C08g39200.1	BroT25.C08g38180.1_genome_2	100.000	584	0	0	1	584	1	584	0.0	1212	PASS	PASS	2	8	GWHDTYM00000008	41201738	41204441	2704	584	BroT25.C08g38180.1	-	33429278	35196463	BroT25.C08g38180	-	33429277
+3	BroT22.C08g39200.1	BroT21.C08g41890.1_genome_3	100.000	584	0	0	1	584	1	584	0.0	1212	PASS	PASS	3	8	GWHDUBS00000008	47704983	47707686	2704	584	BroT21.C08g41890.1	-	34034759	35196463	BroT21.C08g41890	-	34034758
+4	BroT22.C08g39200.1	BroT22.C08g39200.1_genome_4	100.000	584	0	0	1	584	1	584	0.0	1212	PASS	PASS	4	7	C08	44619672	44622375	2704	584	BroT22.C08g39200.1	-	34609460	35196463	BroT22.C08g39200	-	34609459
+

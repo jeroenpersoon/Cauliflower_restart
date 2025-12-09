@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Korso_T22_proteome",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Korso_T22_proteome",
+  "number-of-letters": 17741396,
+  "number-of-sequences": 51028,
+  "last-updated": "2025-11-21T17:40:00",
+  "number-of-volumes": 1,
+  "bytes-total": 26255283,
+  "bytes-to-cache": 18200761,
+  "files": [
+    "Korso_T22_proteome.pdb",
+    "Korso_T22_proteome.phr",
+    "Korso_T22_proteome.pin",
+    "Korso_T22_proteome.pog",
+    "Korso_T22_proteome.pos",
+    "Korso_T22_proteome.pot",
+    "Korso_T22_proteome.psq",
+    "Korso_T22_proteome.ptf",
+    "Korso_T22_proteome.pto"
+  ]
+}

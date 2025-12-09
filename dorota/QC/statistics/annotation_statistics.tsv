@@ -1,0 +1,62 @@
+	GWHBKKZ00000000.filtered	GWHDTYM00000000.filtered	GWHDUBS00000000.filtered	T22.chr.filtered
+Number of gene	53879.0	50754.0	51515.0	51028.0
+Number of mrna	53879.0	50754.0	51515.0	51028.0
+Number of cds	53879.0	50754.0	51515.0	51028.0
+Number of exon	251089.0	242478.0	252095.0	237372.0
+Number of exon in cds	251089.0	242478.0	252095.0	237372.0
+Number of intron in cds	197210.0	191724.0	200580.0	186344.0
+Number of intron in exon	197210.0	191724.0	200580.0	186344.0
+Number gene overlapping	0.0	0.0	0.0	0.0
+Number of single exon gene	12945.0	11329.0	10751.0	11651.0
+Number of single exon mrna	12945.0	11329.0	10751.0	11651.0
+mean mrnas per gene	1.0	1.0	1.0	1.0
+mean cdss per mrna	1.0	1.0	1.0	1.0
+mean exons per mrna	4.7	4.8	4.9	4.7
+mean exons per cds	4.7	4.8	4.9	4.7
+mean introns in cdss per mrna	3.7	3.8	3.9	3.7
+mean introns in exons per mrna	3.7	3.8	3.9	3.7
+Total gene length (bp)	105870340.0	100360188.0	110040821.0	98770686.0
+Total mrna length (bp)	105870340.0	100360188.0	110040821.0	98770686.0
+Total cds length (bp)	58800234.0	54334872.0	55985148.0	53377277.0
+Total exon length (bp)	58800234.0	54334872.0	55985148.0	53377277.0
+Total intron length per cds (bp)	47070106.0	46025316.0	54055673.0	45393409.0
+Total intron length per exon (bp)	47070106.0	46025316.0	54055673.0	45393409.0
+mean gene length (bp)	1965.0	1977.0	2136.0	1936.0
+mean mrna length (bp)	1965.0	1977.0	2136.0	1936.0
+mean cds length (bp)	1091.0	1071.0	1087.0	1046.0
+mean exon length (bp)	234.0	224.0	222.0	225.0
+mean cds piece length (bp)	234.0	224.0	222.0	225.0
+mean intron in cds length (bp)	239.0	240.0	269.0	244.0
+mean intron in exon length (bp)	239.0	240.0	269.0	244.0
+median gene length (bp)	1412.0	1437.0	1494.0	1406.0
+median mrna length (bp)	1412.0	1437.0	1494.0	1406.0
+median cds length (bp)	136.0	133.0	132.0	133.0
+median exon length (bp)	136.0	133.0	132.0	133.0
+median cds piece length (bp)	136.0	133.0	132.0	133.0
+median intron in cds length (bp)	96.0	96.0	97.0	96.0
+median intron in exon length (bp)	96.0	96.0	97.0	96.0
+90 percentile gene length (bp)	3951.0	3951.0	4346.0	3896.0
+90 percentile mrna length (bp)	3951.0	3951.0	4346.0	3896.0
+90 percentile cds length (bp)	500.0	476.0	470.0	479.0
+90 percentile exon length (bp)	500.0	476.0	470.0	479.0
+90 percentile cds piece length (bp)	500.0	476.0	470.0	479.0
+90 percentile intron in cds length (bp)	397.0	405.0	437.0	414.0
+90 percentile intron in exon length (bp)	397.0	405.0	437.0	414.0
+% of genome covered by gene	19.8	18.3	20.6	17.9
+% of genome covered by mrna	19.8	18.3	20.6	17.9
+% of genome covered by cds	11.0	9.9	10.5	9.7
+% of genome covered by exon	11.0	9.9	10.5	9.7
+% of genome covered by intron from cds	8.8	8.4	10.1	8.2
+% of genome covered by intron from exon	8.8	8.4	10.1	8.2
+Longest gene (bp)	105299.0	301213.0	396780.0	317032.0
+Longest mrna (bp)	105299.0	301213.0	396780.0	317032.0
+Longest cds (bp)	16086.0	16086.0	16086.0	16086.0
+Longest exon (bp)	11223.0	7026.0	11101.0	9149.0
+Longest cds piece (bp)	11223.0	7026.0	11101.0	9149.0
+Longest intron into cds part (bp)	87048.0	297755.0	337798.0	281770.0
+Longest intron into exon part (bp)	87048.0	297755.0	337798.0	281770.0
+Shortest gene (bp)	150.0	150.0	150.0	150.0
+Shortest mrna (bp)	150.0	150.0	150.0	150.0
+Shortest cds piece (bp)	3.0	3.0	3.0	2.0
+Shortest intron into cds part (bp)	21.0	24.0	21.0	30.0
+Shortest intron into exon part (bp)	21.0	24.0	21.0	30.0

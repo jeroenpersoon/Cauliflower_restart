@@ -1,0 +1,65 @@
+--------------------------------------------------------------------------------
+
+------------------------------------- mrna -------------------------------------
+Number of gene                                              51028
+Number of mrna                                              51028
+Number of cds                                               51028
+Number of exon                                              237372
+Number of exon in cds                                       237372
+Number of intron in cds                                     186344
+Number of intron in exon                                    186344
+Number gene overlapping                                     0
+Number of single exon gene                                  11651
+Number of single exon mrna                                  11651
+mean mrnas per gene                                         1.0
+mean cdss per mrna                                          1.0
+mean exons per mrna                                         4.7
+mean exons per cds                                          4.7
+mean introns in cdss per mrna                               3.7
+mean introns in exons per mrna                              3.7
+Total gene length (bp)                                      98770686
+Total mrna length (bp)                                      98770686
+Total cds length (bp)                                       53377277
+Total exon length (bp)                                      53377277
+Total intron length per cds (bp)                            45393409
+Total intron length per exon (bp)                           45393409
+mean gene length (bp)                                       1936
+mean mrna length (bp)                                       1936
+mean cds length (bp)                                        1046
+mean exon length (bp)                                       225
+mean cds piece length (bp)                                  225
+mean intron in cds length (bp)                              244
+mean intron in exon length (bp)                             244
+median gene length (bp)                                     1406
+median mrna length (bp)                                     1406
+median cds length (bp)                                      133
+median exon length (bp)                                     133
+median cds piece length (bp)                                133
+median intron in cds length (bp)                            96
+median intron in exon length (bp)                           96
+90 percentile gene length (bp)                              3896
+90 percentile mrna length (bp)                              3896
+90 percentile cds length (bp)                               479
+90 percentile exon length (bp)                              479
+90 percentile cds piece length (bp)                         479
+90 percentile intron in cds length (bp)                     414
+90 percentile intron in exon length (bp)                    414
+% of genome covered by gene                                 17.9
+% of genome covered by mrna                                 17.9
+% of genome covered by cds                                  9.7
+% of genome covered by exon                                 9.7
+% of genome covered by intron from cds                      8.2
+% of genome covered by intron from exon                     8.2
+Longest gene (bp)                                           317032
+Longest mrna (bp)                                           317032
+Longest cds (bp)                                            16086
+Longest exon (bp)                                           9149
+Longest cds piece (bp)                                      9149
+Longest intron into cds part (bp)                           281770
+Longest intron into exon part (bp)                          281770
+Shortest gene (bp)                                          150
+Shortest mrna (bp)                                          150
+Shortest cds piece (bp)                                     2
+Shortest intron into cds part (bp)                          30
+Shortest intron into exon part (bp)                         30
+

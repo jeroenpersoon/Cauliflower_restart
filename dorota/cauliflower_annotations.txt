@@ -1,0 +1,4 @@
+1 /lustre/BIF/nobackup/perso009/cauliflower_restart/dorota/QC/annotations_filtered/GWHBKKZ00000000.filtered.gff
+2 /lustre/BIF/nobackup/perso009/cauliflower_restart/dorota/QC/annotations_filtered/GWHDTYM00000000.filtered.gff
+3 /lustre/BIF/nobackup/perso009/cauliflower_restart/dorota/QC/annotations_filtered/GWHDUBS00000000.filtered.gff
+4 /lustre/BIF/nobackup/perso009/cauliflower_restart/dorota/QC/annotations_filtered/T22.chr.filtered.gff

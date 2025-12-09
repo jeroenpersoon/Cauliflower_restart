@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "B.oleracea_panproteome15",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "B.oleracea_panproteome15",
+  "number-of-letters": 281222567,
+  "number-of-sequences": 793418,
+  "last-updated": "2025-11-21T17:44:00",
+  "number-of-volumes": 1,
+  "bytes-total": 451805332,
+  "bytes-to-cache": 288363458,
+  "files": [
+    "B.oleracea_panproteome15.pdb",
+    "B.oleracea_panproteome15.phr",
+    "B.oleracea_panproteome15.pin",
+    "B.oleracea_panproteome15.pog",
+    "B.oleracea_panproteome15.pos",
+    "B.oleracea_panproteome15.pot",
+    "B.oleracea_panproteome15.psq",
+    "B.oleracea_panproteome15.ptf",
+    "B.oleracea_panproteome15.pto"
+  ]
+}

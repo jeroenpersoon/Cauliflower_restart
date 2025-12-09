@@ -1,0 +1,24 @@
+{
+  "version": "1.2",
+  "dbname": "Species_panproteome15",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "Species_panproteome15",
+  "number-of-letters": 281222567,
+  "number-of-sequences": 793418,
+  "last-updated": "2025-11-21T17:35:00",
+  "number-of-volumes": 1,
+  "bytes-total": 451805324,
+  "bytes-to-cache": 288363450,
+  "files": [
+    "Species_panproteome15.pdb",
+    "Species_panproteome15.phr",
+    "Species_panproteome15.pin",
+    "Species_panproteome15.pog",
+    "Species_panproteome15.pos",
+    "Species_panproteome15.pot",
+    "Species_panproteome15.psq",
+    "Species_panproteome15.ptf",
+    "Species_panproteome15.pto"
+  ]
+}

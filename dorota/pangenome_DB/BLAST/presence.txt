@@ -1,0 +1,7 @@
+#Sequence 1, >BroT22.C08g39200.1
+Gene names: -(22x)
+Present in genomes 1(6x), 2(5x), 3(6x), 4(5x)
+Number of different copies found: 5, 6
+Missing in genomes []
+Genes are part of 5 homology groups: 35153983, 35172181, 35172182, 35185811, 35196463]
+

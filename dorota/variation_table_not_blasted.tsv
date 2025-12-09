@@ -1,0 +1,2 @@
+Gen-id	Homology_group	Genome_numbers	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+caul3G04816.1	35172182	1	AT3G21320.1	64.815	None	BroT22.C03g46310.1	99.259	NO	NO	cauliflower

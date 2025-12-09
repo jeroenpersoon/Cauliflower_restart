@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Araport11_prot_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "AT_Korso/Araport11_GFF3_genes_transposons.current.filtered.pep.faa",
+  "number-of-letters": 11136118,
+  "number-of-sequences": 27142,
+  "last-updated": "2025-12-05T23:43:00",
+  "number-of-volumes": 1,
+  "bytes-total": 14864355,
+  "bytes-to-cache": 11380557,
+  "files": [
+    "Araport11_prot_db.pdb",
+    "Araport11_prot_db.phr",
+    "Araport11_prot_db.pin",
+    "Araport11_prot_db.pot",
+    "Araport11_prot_db.psq",
+    "Araport11_prot_db.ptf",
+    "Araport11_prot_db.pto"
+  ]
+}

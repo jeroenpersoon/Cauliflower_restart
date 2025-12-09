@@ -2,7 +2,10 @@
 """
 Author: Jeroen Persoon
 Description: give you the gen id plus homology group for a busco per genome
-Usage: python3 busco_validation.py {busco_id}
+Usage: python3 busco_validation.py {proteome/pangenome_database} {output_file}
+
+Note: You need to have a pangenome or panproteome with busco and the grouping
+function already ran on it.
 """
 
 from pathlib import Path
@@ -129,7 +132,7 @@ def print_100busco(busco_df, homology_groups, output):
     """
 
     #make a new df of the row containing the busco id
-    random_buscos = busco_df["# Busco id"].copy()
+    random_buscos = busco_df["# Busco id"].sample(n=100).copy()
 
     #search the homology group number for each gen-id and makes a list of it
     row = []
@@ -165,11 +168,6 @@ def main():
 
     # homology_groups = "/home/perso009/lustre/cauliflower_restart/cauliflower/T22species_oleracea15/panproteome/proteome_15_DB/pantools_homology_groups.txt"
     homology_groups = proteome+"/pantools_homology_groups.txt"
-
-    # ID = "2at3699"
-    # ID = argv[1]
-
-    # TODO: use argv as path to proteome_DB and link the for files needed like that so that only this is needed as input
 
     # buscoid_df = print_cnv(busco_df, ID, homology_groups)
     # print(buscoid_df)

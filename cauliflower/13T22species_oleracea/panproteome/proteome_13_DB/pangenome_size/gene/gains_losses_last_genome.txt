@@ -1,0 +1,95 @@
+#Each genome is added to the pangenome of the remaining genomes to identify the number of groups gained (accessory, unique) or lost (core, unique)
+
+Average gain/loss when adding the 13th genome, median gain/loss, standard deviation, range 
+Core     : -404.00, -294.00, 253.90, -1075 -198
+Accessory: 2459.54, 2540.00, 362.57, 1277 2698
+Unique   : 1362.85, 1234.00, 743.08, 710 3445
+
+Median gain/loss when adding the 13th genome
+Core: -294.0
+Accessory: 2540.0
+Unique: 1234.0
+
+Highest unique gain 5027 was caused by genome 11
+Highest core loss -1075 was caused by genome 1
+
+
+#Group gain/loss per genome
+Genome 1
+Distinct genes   : 39498 (43601 total)
+ Core loss       : -1075
+ Accessory gain  : 1277
+ Unique gain/loss: 4722/-1277
+
+Genome 10
+Distinct genes   : 48423 (52704 total)
+ Core loss       : -312
+ Accessory gain  : 2582
+ Unique gain/loss: 3816/-2582
+
+Genome 11
+Distinct genes   : 49525 (54905 total)
+ Core loss       : -527
+ Accessory gain  : 2644
+ Unique gain/loss: 5027/-2644
+
+Genome 12
+Distinct genes   : 47505 (51515 total)
+ Core loss       : -273
+ Accessory gain  : 2534
+ Unique gain/loss: 3244/-2534
+
+Genome 13
+Distinct genes   : 46737 (51028 total)
+ Core loss       : -857
+ Accessory gain  : 2430
+ Unique gain/loss: 3320/-2430
+
+Genome 2
+Distinct genes   : 48115 (52455 total)
+ Core loss       : -198
+ Accessory gain  : 2526
+ Unique gain/loss: 3441/-2526
+
+Genome 3
+Distinct genes   : 48618 (52963 total)
+ Core loss       : -331
+ Accessory gain  : 2540
+ Unique gain/loss: 4116/-2540
+
+Genome 4
+Distinct genes   : 48134 (52323 total)
+ Core loss       : -304
+ Accessory gain  : 2606
+ Unique gain/loss: 3949/-2606
+
+Genome 5
+Distinct genes   : 46694 (51047 total)
+ Core loss       : -294
+ Accessory gain  : 2382
+ Unique gain/loss: 3203/-2382
+
+Genome 6
+Distinct genes   : 46731 (50938 total)
+ Core loss       : -271
+ Accessory gain  : 2312
+ Unique gain/loss: 3090/-2312
+
+Genome 7
+Distinct genes   : 48429 (52658 total)
+ Core loss       : -287
+ Accessory gain  : 2742
+ Unique gain/loss: 4081/-2742
+
+Genome 8
+Distinct genes   : 48994 (53408 total)
+ Core loss       : -260
+ Accessory gain  : 2701
+ Unique gain/loss: 4121/-2701
+
+Genome 9
+Distinct genes   : 48414 (52606 total)
+ Core loss       : -263
+ Accessory gain  : 2698
+ Unique gain/loss: 3561/-2698
+
