@@ -1,0 +1,11 @@
+Gen-id	Homology_group	Genome_numbers	start coordinate	end coordinate	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+BroT10.C03g14070.1	848698	10	7078494.0	7089824.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	wild cabbage
+BolO_3g14630.1	848698	14	7247870.0	7260408.0	AT5G57410.3	92.857	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	99.731	NO	NO	wild cabbage
+rna-XM_013769766.1	848698	1	7181494.0	7191084.0	AT5G57410.3	92.857	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	99.194	NO	NO	wild cabbage
+BroT17.C03g13420.1	848698	12	7450043.0	7461366.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	collard greens
+BroT21.C03g13320.1	848698	13	6892917.0	6905333.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	cauliflower
+BroT02.C03g13320.1	848698	3	10552860.0	10555367.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	flat cabbage
+BroT22.C03g13820.1	848698	15	10209728.0	10212235.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	cauliflower
+bro5G08344.1	848698	2	10481941.0	10484448.0	AT5G57410.3	92.857	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	99.191	NO	NO	broccoli
+BroT07.C03g13900.1	848698	4	10722038.0	10724569.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	kohlrabi
+BroT06.C03g13250.1	848698	6	10818884.0	10821384.0	AT5G57410.3	93.132	Afadin/alpha-actinin-binding protein	BroT22.C03g13820.1	100.000	NO	NO	round cabbage

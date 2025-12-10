@@ -1,0 +1,9 @@
+Module	Section	Sample Name	Source
+FastQC	all_sections	TKI-0143_R1_001	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/TKI-0143_R1_001_fastqc.zip
+FastQC	all_sections	TKI-0143_R2_001	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/TKI-0143_R2_001_fastqc.zip
+FastQC	all_sections	TKI-0155_R1_001	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/TKI-0155_R1_001_fastqc.zip
+FastQC	all_sections	TKI-0155_R2_001	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/TKI-0155_R2_001_fastqc.zip
+FastQC	all_sections	caniego_F1_R1	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/caniego_F1_R1_fastqc.zip
+FastQC	all_sections	caniego_F1_R2	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/caniego_F1_R2_fastqc.zip
+FastQC	all_sections	liria_F1_R1	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/liria_F1_R1_fastqc.zip
+FastQC	all_sections	liria_F1_R2	/lustre/BIF/nobackup/perso009/reseq/fastqc_reports/liria_F1_R2_fastqc.zip

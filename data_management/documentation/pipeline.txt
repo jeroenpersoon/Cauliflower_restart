@@ -1,0 +1,37 @@
+#First index the reference genome, I used this T22 fasta file
+bwa index <FASTA file>
+
+#Then map the reads to the fasta file
+bwa mem -t 16 <FASTA file> <R1 reads FASTAQ> <R2 reads FASTQ> > <SAM output file>
+
+#Then convert and sort the SAM file to a BAM file
+samtools sort <SAM file> > <BAM file>
+
+#Then index the BAM file to make a BAM.BAI file
+samtools index <BAM file>
+
+#For variant calling you can use FreeBayes or GATK, since FreeBayes is easier and faster to run let's start with that.
+nice freebayes -f <reference genome> -0 <sorted BAM file> > <.vcf output file>
+
+
+
+
+##to get the ELF3 region (including 3 neighbouring genes on both sides) to see it the clipped reads are also clipped using other genomes,
+##I trimmed the BAM file to the specific region and extracted the reads from it to get a subset dataset.
+
+#Extracted the mapped reads from the liria accessions in a specific region
+nice samtools view -b liria_f1_sorted.bam "C08:44603128-44632813" > ELF3_subset_liria.bam
+
+#Make a list of the read names
+nice samtools view ELF3_subset_liria.bam | cut -f1 | sort | uniq > ELF3_names.txt
+
+#Get the paired mates for the reads that are in this region.
+nice samtools view -h ELF3_subset_liria.bam | nice samtools view -b -N ELF3_names.txt > ELF3_paired_subset.bam
+
+#Sort them on read name since bamtofastq requires that
+nice samtools sort -n ELF3_paired_subset.bam -o ELF3_sorted_paired_subset.bam
+
+#Extract the reads from it to get FASTQ reads again. You can check whether the total reads in the fastq files are around the same number than in the 
+#ELF3_subset_liria.bam in this case. There might be a little bit less reads because this command could not find all the paired mates for all the reads
+#in the list of selected reads but it is way less then when doing this without finding the paired mates and sort the reads by name.
+bedtools bamtofastq -i ELF3_sorted_paired_subset.bam -fq ELF3_paired_R1.fastq -fq2 ELF3_paired_R2.fastq

@@ -1,0 +1,7 @@
+Total genomes: 0
+
+Genome number, path to proteins
+1, /lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/proteins/GWHBKKZ00000000.filtered.pep.faa
+2, /lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/proteins/GWHDTYM00000000.filtered.pep.faa
+3, /lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/proteins/GWHDUBS00000000.filtered.pep.faa
+4, /lustre/BIF/nobackup/perso009/cauliflower/T22panproteome/QC/proteins/T22.chr.filtered.pep.faa

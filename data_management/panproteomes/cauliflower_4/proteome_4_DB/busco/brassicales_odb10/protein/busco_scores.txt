@@ -1,0 +1,18 @@
+Category                            : average, median, lowest, highest 
+Complete BUSCOs (C)                 : 96.209, 96.715, 94.147, 97.258
+Complete and single-copy BUSCOs (S) : 86.624, 87.195, 84.639, 87.467
+Complete and duplicated BUSCOs (D)  : 9.584, 9.530, 9.487, 9.791
+Fragmented BUSCOs (F)               : 9.584, 9.530, 9.487, 9.791
+Missing BUSCOs (M)                  : 9.584, 9.530, 9.487, 9.791
+
+Genome 1. brassicales_odb10 4596 HMMs
+C:96.52 S:87.03 D:9.49 F:9.49 M:9.49
+
+Genome 2. brassicales_odb10 4596 HMMs
+C:96.91 S:87.36 D:9.55 F:9.55 M:9.55
+
+Genome 3. brassicales_odb10 4596 HMMs
+C:97.26 S:87.47 D:9.79 F:9.79 M:9.79
+
+Genome 4. brassicales_odb10 4596 HMMs
+C:94.15 S:84.64 D:9.51 F:9.51 M:9.51

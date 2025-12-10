@@ -1,0 +1,7 @@
+#Sequence 1, >BroT13.C08g39640.1
+Gene names: -(55x), LOC106294956(1x), LOC106312009(1x), LOC106332379(1x), LOC106342423(1x)
+Present in genomes 1(4x), 2(5x), 3(4x), 4(4x), 5(5x), 6(3x), 7(4x), 8(4x), 9(3x), 10(4x), 11(4x), 12(4x), 13(4x), 14(4x), 15(3x)
+Number of different copies found: 3, 4, 5
+Missing in genomes []
+Genes are part of 5 homology groups: 86185378, 86203054, 86211705, 86211706, 86229419]
+

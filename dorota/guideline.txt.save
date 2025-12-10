@@ -1,0 +1,77 @@
+Before constructing a pangenome you need to run the PanUtils QC pipeline. This pipeline is not included in this directory.
+
+To run the PanUtils pipeline you have to do the following points:
+- Clone the qc pipeline
+- Create and activate an snakemake environment.
+- Remove the hashtag in Snakefile by doing:
+  vim pantools-qc-pipeline/workflow/Snakefile (or nano or whatever editor you want)
+  remove the # on line 22.
+
+- Change the location of the snakefile and the config file accordingly.
+
+- Also change the content of the config file accordingly. When cloning the PanUtils git you will also clone a config file. The things to change in this file are: location of the genomes,
+  location of the annotation files, output location for the QC files, minimum genomic sequence length (short sequences are likely to be low quality trash), longest isoform True/False
+  (when setting this to False there might be an uneven comparison later because some genes might have alternative transcripts and some don't, that also depends on the way the genome
+  was annotated), and orf_size (so how long minimal protein length, annotations can also result in proteins of less that 10 aa which is obiviously not a real protein).
+
+- make a screen session before running the qc pipeline because it can take some time, and in this way your sessions will not be aborted in the meantime
+
+NOTE: If you want to exclude non nuclear DNA you should check in the fasta header if there is any in your genome assemblies. If there is remove it by hand before running the QC pipeline
+      when you have done this the QC pipeline will automatically remove it from the genome assembly.
+
+- run nice snakemake --use-conda --snakefile /pantools-qc-pipeline/workflow/Snakefile --configfile paht/to/config_file --cores 24
+
+Now you have done the QC. You can look into the statistics folder to get an overview of the raw vs. filtered data. You also have the proteomes in the proteins folder which will be used
+for constructing the panproteome. The genomes in the genomes_filtered folder will be used building the pangenome and their corresponding annotations are in the annotation_filtered folder.
+
+For constructing the pangenome I have made the script pantools_commands.sh. Run it as: nice -n 19 ./pantools_command.sh
+If you don't have the rights to run it run: chmod+x pantools_command.sh, and try again.
+
+This script does the following things:
+- Makes a panpoteome (manner of minutes)
+- Makes a pangenome on the RAM-disc (manner of hours)
+- Add the annotations to the pangenome also on the RAM-disc (manner of hours?)
+- Copies everything to the current directory
+- Runs the busco (manner of hours)
+- Runs the optimal grouping (manner of hours to days)
+
+After this script is finished your need to choose a relaxation for the homology grouping. This needs to be done based on the output of the optimal grouping command. 
+Look in the grouping_overview.csv to see the results per relaxation based on the BUSCOs. For determine which grouping is the best I would suggest to talk to some people, because this depends
+on the research questions, data which is used etc. so people can give you different thoughts about it.
+
+When a relaxation is selected you can modify the pantools_grouping.sh file. After the --relaxation parameter put in your desired relaxation. 
+After that run it in a screen session as: nice -n 19 ./pantools_grouping.sh
+
+This script also does the gene_classification function. From which the calssified_groups.csv file can be used in the given R-script to make a plot about the proportion of core, accessory, and unique genes.
+
+This is only the beginning of pantools analyses, there are many functions which you can run to analysis the things you want. 
+Since there is a pretty good documentation on the interenet and function depends on specific input files I would recommend running those functions seperately, that is at least how I did it.
+Most of these function don't have a long run time, but I would just run these in a screen session to make sure.
+
+***
+Python scripts
+***
+- Variation_table.py
+
+I think my most valuable script it the one to make the variation tables. It can be run by:
+
+nice python3 Variation_table.py <pangenome_DB> <input query> <sequence similarity percentage to pass the BLAST> <alignment length percentage to pass the BLAST>
+
+This will make two variation tables which are one directory up from the current directory. In this directory there will also be some database files added which are needed to do the BLAST so that that into
+account.
+
+There are two tables: variation_table.tsv and variation_table_not_blasted.tsv. The first tables contains all the genes which pass the BLAST and their information.
+The second table contains all the genes which are in the same homology group as any gene which pass the BLAST with there information as well. If there is no gene which is not blasted but in the same homology
+group as any blasted gene there will be no variation_table_not_blasted.
+
+So for the table itself the information is as followed: 
+Gene id of the blasted gene - homology group number - genome number in pangenome - start coordination in the genome in question - end coordination in the genome in question - best Arabidopsis thaliana hit - 
+% identity of the AT hit - Full_name / symbol / any name of the AT gene - Best hit in Korso (or any genome when you change this in the code) - % ID of the hit - YES/NO if this is found when blasting the
+input sequence to the pangenome - YES/NO if this was found using the best hit when blasting the input sequence to the pangenome - Name of the species (hard-coded)
+
+For the variation_table_not_blasted the coordinate are left out since they genes were not blasted. Also the genome number here is hard-coded.
+
+- msa.py
+more smaller scripts will follow...
+
+

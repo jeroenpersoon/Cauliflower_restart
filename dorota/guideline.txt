@@ -50,9 +50,13 @@ Most of these function don't have a long run time, but I would just run these in
 
 ***
 Python scripts
+For all these scripts also read the description of the script itself for further explaination
+***
+-Variation_table.py
+
 I think my most valuable script it the one to make the variation tables. It can be run by:
 
-nice python3 Variation_table.py <pangenome_DB> <input query> <sequence similarity percentage to pass the BLAST> <alignment length percentage to pass the BLAST>
+nice python3 Variation_table.py {proteome/pangenome_database} {input query} {desired sequence similarity to pass the BLAST} {desired alignment length to pass the BLAST} {gene labels} {arabidopsis gff file} {arabidopsis proteome} {cauliflower (T22) proteome}
 
 This will make two variation tables which are one directory up from the current directory. In this directory there will also be some database files added which are needed to do the BLAST so that that into
 account.
@@ -66,9 +70,33 @@ Gene id of the blasted gene - homology group number - genome number in pangenome
 % identity of the AT hit - Full_name / symbol / any name of the AT gene - Best hit in Korso (or any genome when you change this in the code) - % ID of the hit - YES/NO if this is found when blasting the
 input sequence to the pangenome - YES/NO if this was found using the best hit when blasting the input sequence to the pangenome - Name of the species (hard-coded)
 
-For the variation_table_not_blasted the coordinate are left out since they genes were not blasted. Also the genome number here is hard-coded.
+For the variation_table_not_blasted the coordinate are left out since they genes were not blasted.
+The gene labels file in needed to not have hard-coded parts in the code.
 
 ***
-more smaller scripts will follow...
+-msa.py
+
+This script is rather simple. You need to make a file including the gene ids of which you want to get and msa, one per line.
+In addition you need to used the gene labels file like one that is also used for the Variation_table.py. 
+
+In the end you gen a fasta file with the genes of interest which you can use for you MSA, I uploaded this file to MEGA.
+
+***
+-Fasta_validation.py
+
+This is a script to see if two FASTA files are identical. I made this because the PanUtils QC pipeline requires a maximum of 60 characters per line. When for example all the nucleotides of a sequence
+are on one line it will raise an error. I run: seqtk seq -l 60 27622721.fna > 27622721_wrapped.fna so that all line have a maximum of 60 characters.
+
+After doing this I wanted to know if the FASTA files are still the identical. When running this script it will print out some stats so you can compare in the command-line if those stats are the same
+for both FASTA files. Reading the description and running the script will clarify a lot.
+
+***
+-busco_validation.py
+
+This script selects 100 busco's at random and checks if they are in the same group for each genome assembly in the pangenome. This can be checked by running the script and look in the output file.
+This is a TSV file with on every row a busco and in every colum the group number per genome assembly, in the last column a YES/NO is added to see if all the group numbers are the same.
+
+This script can be used to see if the grouping over different evolutionary distances is "the same" and that genes which are expected to group together are also grouped together.
+However, a better way to do this would be to check the grouping of core brassica gene instead of busco genes since these are highly conserved and expected to group together anyway. 
 
 

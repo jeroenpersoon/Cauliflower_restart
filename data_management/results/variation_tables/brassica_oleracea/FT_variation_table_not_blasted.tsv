@@ -1,0 +1,2 @@
+Gen-id	Homology_group	Genome_numbers	start coordinate	end coordinate	Best Arabidopsis Thaliana hit	% identity Arabidopsis Thaliana hit	full_name best hit Arabidopsis	Best cauliflower hit	% identity cauliflower hit	Gene found blasting the initial query to the pangenome?	Gene found blasting the Brassica best hit to the pangenome	Species
+BroT10.C02g29500.1	875302	10	17121073.0	17123288.0	AT1G65480.2	79.091	FLOWERING LOCUS T	BroT22.C02g20180.1	77.477	NO	NO	wild cabbage
